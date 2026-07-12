@@ -10,20 +10,29 @@ on:
       - "tools/refresh-previews.mjs"
       - "tools/process-open-account-capture.mjs"
       - ".github/workflows/refresh-previews.yml"
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "assets/**"
+      - "captures/home/index-account-menu-open/**"
+      - "tools/refresh-previews.mjs"
+      - "tools/process-open-account-capture.mjs"
+      - ".github/workflows/refresh-previews.yml"
 
 permissions:
   contents: write
 
 jobs:
   refresh:
-    if: ${{ !contains(github.event.head_commit.message, '[skip preview refresh]') }}
+    if: ${{ github.event_name != 'push' || !contains(github.event.head_commit.message, '[skip preview refresh]') }}
     runs-on: ubuntu-latest
 
     steps:
       - name: Check out branch
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.ref_name }}
+          ref: ${{ github.head_ref || github.ref_name }}
 
       - name: Set up Node
         uses: actions/setup-node@v4
@@ -52,4 +61,4 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add captures analysis pages
           git commit -m "Process open account drawer capture [skip preview refresh]"
-          git push
+          git push origin HEAD:${{ github.head_ref || github.ref_name }}
