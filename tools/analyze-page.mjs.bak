@@ -6,17 +6,17 @@ import selectorParser from "postcss-selector-parser";
 
 const htmlPath = path.resolve(
   process.argv[2] ||
-  "captures/smartphones/smartphones.singlefile.html"
+  "captured/smartphones/smartphones.singlefile.html"
 );
 
 const cssPath = path.resolve(
   process.argv[3] ||
-  "assets/css/bagisto-theme.css"
+  "extracted-theme/bagisto-theme.css"
 );
 
 const outputDir = path.resolve(
   process.argv[4] ||
-  "analysis/smartphones"
+  "smartphones-analysis"
 );
 
 if (!fs.existsSync(htmlPath)) {
@@ -30,8 +30,6 @@ if (!fs.existsSync(cssPath)) {
 }
 
 fs.mkdirSync(outputDir, { recursive: true });
-
-const pageName = path.basename(outputDir);
 
 const sectionsDir = path.join(outputDir, "sections");
 fs.mkdirSync(sectionsDir, { recursive: true });
@@ -305,7 +303,7 @@ writeLines(
 );
 writeLines("inline-only-classes.txt", inlineOnlyClasses);
 writeLines(
-  "compiled-classes-unused-on-page.txt",
+  "compiled-classes-unused-on-smartphones.txt",
   compiledUnusedOnPage
 );
 
@@ -425,7 +423,7 @@ function cleanClone(selection) {
 const bodyClone = cleanClone($("body").first());
 
 fs.writeFileSync(
-  path.join(outputDir, `${pageName}-body-clean.html`),
+  path.join(outputDir, "smartphones-body-clean.html"),
   $.html(bodyClone)
 );
 
@@ -435,7 +433,7 @@ if (mainSelection.length) {
   const mainClone = cleanClone(mainSelection);
 
   fs.writeFileSync(
-    path.join(outputDir, `${pageName}-main-clean.html`),
+    path.join(outputDir, "smartphones-main-clean.html"),
     $.html(mainClone)
   );
 }
@@ -543,7 +541,7 @@ const pageCssRoot = postcss.root();
 copyFilteredNodes(compiledRoot, pageCssRoot);
 
 fs.writeFileSync(
-  path.join(outputDir, `${pageName}-used-rules.css`),
+  path.join(outputDir, "smartphones-used-rules.css"),
   pageCssRoot.toString()
 );
 
@@ -641,7 +639,7 @@ const topMissing = sortedByFrequency(htmlClassFrequency)
   .slice(0, 25);
 
 const summary = [
-  `${pageName.toUpperCase()} HTML ↔ CSS ANALYSIS`,
+  "SMARTPHONES HTML ↔ CSS ANALYSIS",
   "================================",
   "",
   `Title: ${report.page.title}`,

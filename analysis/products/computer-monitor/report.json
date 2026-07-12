@@ -1,0 +1,36 @@
+{
+  "page": {
+    "title": "Bagisto Headless",
+    "htmlBytes": 3104008,
+    "elements": 499,
+    "bodyElements": 440,
+    "hasMain": true,
+    "styleTags": 3,
+    "scriptTags": 86,
+    "stylesheetLinks": 0,
+    "images": 5,
+    "links": 23,
+    "buttons": 30,
+    "forms": 2,
+    "inputs": 5
+  },
+  "classes": {
+    "totalClassUses": 1969,
+    "htmlUnique": 410,
+    "compiledCssUnique": 2970,
+    "inlineCssUnique": 2970,
+    "htmlFoundInCompiled": 405,
+    "htmlMissingFromCompiled": 5,
+    "htmlFoundInInlineCss": 405,
+    "htmlMissingFromAllCss": 5,
+    "inlineOnly": 0,
+    "compiledUnusedOnPage": 2565,
+    "uniqueCompiledCoveragePercent": 98.78,
+    "weightedCompiledCoveragePercent": 99.75
+  },
+  "inlineCss": {
+    "bytes": 411497,
+    "rules": 3205,
+    "parseErrors": []
+  }
+}

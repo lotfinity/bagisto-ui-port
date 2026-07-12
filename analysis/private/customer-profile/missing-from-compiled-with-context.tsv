@@ -1,0 +1,10 @@
+count	class	samples
+3	sf-hidden	<div.sf-hidden> | <div.fixed.inset-x-0.bottom-0.z-[60].lg:hidden.sf-hidden> | <input#avatar-upload-desktop.hidden.sf-hidden>
+1	customer-layout-wrapper	<div.customer-layout-wrapper.bg-white.dark:bg-neutral-950.min-h-screen> "sgsdg@dffd.comVerified AccountProfileAddressesWishlistOrdersReviewsLogoutProfile InformationManage y"
+1	desktop-customer-layout	<div.desktop-customer-layout> "sgsdg@dffd.comVerified AccountProfileAddressesWishlistOrdersReviewsLogoutProfile InformationManage y"
+1	dl-input-translation-container	<div.dl-input-translation-container.svelte-95aucy>
+1	dsv-2025.04.19-7e29	<span.dsv-2025.04.19-7e29>
+1	font-inherit	<input.font-inherit.text-[100%].leading-[1.15].m-0.p-0.overflow-visible.box-border.absolute>
+1	hero-banner	<div.hero-banner.relative.w-full.h-[180px].sm:h-[220px].lg:h-[280px].bg-white.dark:bg-neutral-900>
+1	profile-tab	<div.profile-tab.max-w-lg.w-full.mx-auto.bg-white.dark:bg-neutral-900.rounded-2xl.shadow-sm> "Profile InformationManage your personal details and account information.Edit ProfileFirst NamesgsdgL"
+1	svelte-95aucy	<div.dl-input-translation-container.svelte-95aucy>

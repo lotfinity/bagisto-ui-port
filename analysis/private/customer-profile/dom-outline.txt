@@ -1,0 +1,283 @@
+div.sf-hidden
+main.bg-white.dark:bg-neutral-950
+  div
+    div.fixed.left-1/2.z-[999].w-[80%].-translate-x-1/2.sm:max-w-md.top-4.bottom-auto.md:bottom-4.md:top-auto
+    main.bg-white.dark:bg-neutral-950
+      header.fixed.top-0.left-0.right-0.z-[60]
+        div.w-full.px-4.md:px-6.lg:px-8.pt-2.md:pt-3
+          nav.relative.mx-auto.rounded-xl.bg-neutral-900.dark:bg-neutral-900.px-4.md:px-6.lg:px-8.py-2.5.md:py-3 [+1]
+            div.flex.w-full.items-center.justify-between.max-w-screen-2xl.mx-auto
+              div.flex.items-center.gap-3
+                a.flex.h-8.w-auto.items-center.md:h-9
+                  div.flex.items-center.gap-x-2
+                    div.!min-h-9.!min-w-9.flex.items-center.justify-center.rounded-lg.bg-emerald-500
+                      svg
+                        rect.fill-white
+                        rect.fill-white
+                    p.text-sm.font-semibold.text-neutral-300
+              div.fixed.inset-x-0.bottom-0.z-[60].lg:hidden.sf-hidden
+              ul.hidden.gap-0.5.text-sm.md:flex.items-center
+                li.relative
+                  a.font-medium.text-neutral-300.hover:text-white.px-3.lg:px-4.py-2.rounded-full.transition-colors.duration-200.hover:bg-white/10 [+3]
+                li.relative
+                  a.font-medium.text-neutral-300.hover:text-white.px-3.lg:px-4.py-2.rounded-full.transition-colors.duration-200.hover:bg-white/10 [+3]
+                li.relative
+                  a.font-medium.text-neutral-300.hover:text-white.px-3.lg:px-4.py-2.rounded-full.transition-colors.duration-200.hover:bg-white/10 [+3]
+                li.relative
+                  a.font-medium.text-neutral-300.hover:text-white.px-3.lg:px-4.py-2.rounded-full.transition-colors.duration-200.hover:bg-white/10 [+3]
+                li.relative
+                  a.font-medium.text-neutral-300.hover:text-white.px-3.lg:px-4.py-2.rounded-full.transition-colors.duration-200.hover:bg-white/10 [+3]
+              div.flex.items-center.gap-2.md:gap-3
+                div.flex
+                  button.p-2.text-white.transition-colors.cursor-pointer.rounded-full.hover:bg-white/10
+                    svg.w-5.h-5
+                  div.fixed.inset-0.z-40.bg-black/40.backdrop-blur-sm.transition-opacity.duration-300.ease-out.cursor-pointer.opacity-0 [+1]
+                  div.fixed.right-0.top-0.z-50.h-full.w-full.max-w-[420px].bg-white.dark:bg-neutral-900.shadow-2xl [+4]
+                    div.flex.items-center.justify-between.px-6.py-5.border-b.border-neutral-100.dark:border-neutral-800
+                      h2.text-lg.font-bold.text-neutral-900.dark:text-white — Search
+                      button.p-1.rounded-full.hover:bg-neutral-100.dark:hover:bg-neutral-800.transition-colors.cursor-pointer
+                        svg.w-6.h-6.text-neutral-500
+                    div.px-6.py-4
+                      div.relative
+                        input.w-full.px-4.py-3.pr-12.text-sm.bg-white.dark:bg-neutral-800.border.border-neutral-200.dark:border-neutral-700 [+9]
+                        button.absolute.right-2.top-1/2.-translate-y-1/2.p-2.text-neutral-400.hover:text-neutral-600.dark:hover:text-neutral-300.transition-colors.cursor-pointer
+                          svg.w-5.h-5
+                    div.border-t.border-neutral-100.dark:border-neutral-800
+                    div.overflow-y-auto.h-[calc(100vh-180px)].py-4.px-6
+                      div.py-12.text-center
+                        svg.w-12.h-12.mx-auto.text-neutral-300.dark:text-neutral-600.mb-3
+                        p.text-neutral-500.dark:text-neutral-400
+                div.hidden.lg:flex
+                  button.cursor-pointer.bg-transparent.hover:bg-white/10.rounded-full.transition-colors
+                    div.relative.flex.items-center.justify-center.rounded-md.lg:h-11.lg:w-11.text-white
+                      svg.h-5.w-5
+                div.hidden.lg:flex
+                  button.relative.p-2.text-white.transition-colors.cursor-pointer.rounded-full.hover:bg-white/10
+                    svg.w-5.h-5
+                  div.fixed.inset-0.z-50.bg-black/40.backdrop-blur-sm.transition-opacity.duration-300.ease-out.cursor-pointer.opacity-0 [+1]
+                  div.fixed.right-0.top-0.z-50.h-full.w-full.max-w-[420px].bg-white.dark:bg-neutral-900.shadow-2xl [+6]
+                    div.flex.items-center.justify-between.px-6.py-6
+                      h2.text-2xl.font-semibold.text-neutral-900.dark:text-white — Shopping Cart
+                      button.p-1.rounded-full.cursor-pointer.hover:bg-neutral-100.dark:hover:bg-neutral-800.transition-colors
+                        svg.w-6.h-6.text-neutral-900.dark:text-white
+                    div.mx-6.border-b.border-neutral-100.dark:border-neutral-800
+                    div.flex-1.overflow-y-auto.px-6
+                      div.flex.flex-col.items-center.justify-center.h-64.text-center
+                        svg.w-16.h-16.text-neutral-300.dark:text-neutral-600.mb-4
+                        p.text-xl.font-bold.text-neutral-900.dark:text-white.mb-2
+                        p.text-neutral-500.dark:text-neutral-400
+                div.flex
+                  label.group.relative.max-w-fit.touch-none.tap-highlight-transparent.select-none.flex.size-9.lg:size-10.cursor-pointer [+12]
+                    div
+                      input.font-inherit.text-[100%].leading-[1.15].m-0.p-0.overflow-visible.box-border.absolute.top-0.w-full [+5]
+                    div.relative.shrink-0.overflow-hidden.rounded-full.outline-solid.outline-transparent.group-data-[focus-visible=true]:z-10.group-data-[focus-visible=true]:ring-2.group-data-[focus-visible=true]:ring-focus.group-data-[focus-visible=true]:ring-offset-2 [+15]
+                      svg.text-white.hover:text-neutral-200.transition-colors
+                        g
+      div.mx-auto.min-h-[calc(100vh-580px)].w-full.bg-white.dark:bg-neutral-950
+        div.customer-layout-wrapper.bg-white.dark:bg-neutral-950.min-h-screen
+          div.desktop-customer-layout
+            div.relative
+              div.hero-banner.relative.w-full.h-[180px].sm:h-[220px].lg:h-[280px].bg-white.dark:bg-neutral-900.border-b.border-neutral-100 [+2]
+                div.absolute.inset-0.w-full.h-full.bg-gradient-to-b.from-emerald-50/20.to-white.dark:from-neutral-900.dark:to-neutral-950
+                  svg.w-full.h-full.opacity-70.dark:opacity-20.pointer-events-none
+                    defs
+                      lineargradient#wave-grad-desktop
+                        stop
+                        stop
+                      lineargradient#wave-stroke-desktop-1
+                        stop
+                        stop
+                        stop
+                      lineargradient#wave-stroke-desktop-2
+                        stop
+                        stop
+              div.absolute.left-1/2.-bottom-12.sm:-bottom-14.lg:-bottom-16.-translate-x-1/2.z-10
+                div.relative.w-24.h-24.sm:w-28.sm:h-28.lg:w-32.lg:h-32.rounded-full.border-4.border-white [+7]
+                  div.w-full.h-full.flex.items-center.justify-center.bg-white.dark:bg-neutral-800.rounded-full
+                    svg.w-18.h-18.text-emerald-500
+                      rect
+                      rect
+                      rect
+                      defs
+                        lineargradient#left-wing-grad-ds
+                          stop
+                          stop
+                        lineargradient#left-wing-grad-2-ds
+                          stop
+                          stop
+                        lineargradient#right-wing-grad-ds
+                          stop
+                          stop
+                        lineargradient#right-wing-grad-2-ds
+                          stop
+                          stop
+                  label.absolute.bottom-0.right-0.w-8.h-8.rounded-full.bg-emerald-500.hover:bg-emerald-600.active:bg-emerald-700.text-white [+10]
+                    svg.w-4.h-4
+                  input#avatar-upload-desktop.hidden.sf-hidden
+            div.pt-16.lg:pt-20.pb-6.px-4.text-center.border-b.border-neutral-100.dark:border-neutral-800
+              h1.text-lg.sm:text-xl.lg:text-2xl.font-bold.text-neutral-900.dark:text-white.break-words — sgsdg@dffd.com
+              div.inline-flex.items-center.gap-1.px-3.py-1.rounded-full.text-xs.font-semibold.text-emerald-600.bg-emerald-50 [+6]
+                svg.w-3.5.h-3.5.text-emerald-500
+            div.container.mx-auto.px-4.sm:px-6.py-8.lg:py-12
+              div.flex.flex-col.lg:flex-row.gap-6.lg:gap-8
+                aside.w-full.lg:w-72.lg:flex-shrink-0
+                  nav.bg-white.dark:bg-neutral-900.rounded-2xl.shadow-sm.border.border-neutral-100.dark:border-neutral-800.p-3.lg:sticky.lg:top-24
+                    ul.space-y-1
+                      li
+                        button.w-full.text-left.px-4.py-3.rounded-l-xl.rounded-r-none.cursor-pointer.flex.items-center.justify-between [+9] — Profile
+                          div.flex.items-center.gap-3.5
+                            span.text-emerald-500
+                              svg.w-5.h-5
+                            span.text-sm.font-medium
+                      li
+                        button.w-full.text-left.px-4.py-3.rounded-l-xl.rounded-r-none.cursor-pointer.flex.items-center.justify-between [+6] — Addresses
+                          div.flex.items-center.gap-3.5
+                            span.text-neutral-400
+                              svg.w-5.h-5
+                            span.text-sm.font-medium
+                      li
+                        button.w-full.text-left.px-4.py-3.rounded-l-xl.rounded-r-none.cursor-pointer.flex.items-center.justify-between [+6] — Wishlist
+                          div.flex.items-center.gap-3.5
+                            span.text-neutral-400
+                              svg.w-5.h-5
+                            span.text-sm.font-medium
+                      li
+                        button.w-full.text-left.px-4.py-3.rounded-l-xl.rounded-r-none.cursor-pointer.flex.items-center.justify-between [+6] — Orders
+                          div.flex.items-center.gap-3.5
+                            span.text-neutral-400
+                              svg.w-5.h-5
+                            span.text-sm.font-medium
+                      li
+                        button.w-full.text-left.px-4.py-3.rounded-l-xl.rounded-r-none.cursor-pointer.flex.items-center.justify-between [+6] — Reviews
+                          div.flex.items-center.gap-3.5
+                            span.text-neutral-400
+                              svg.w-5.h-5
+                            span.text-sm.font-medium
+                    div.mt-6.pt-6.border-t.border-neutral-100.dark:border-neutral-800
+                      button.w-full.text-left.px-4.py-3.rounded-xl.flex.items-center.gap-3.text-emerald-600.hover:bg-emerald-50/50 [+2] — Logout
+                        svg.w-5.h-5.text-emerald-500
+                        span.text-sm.font-semibold
+                main.flex-1.min-w-0.bg-white.dark:bg-neutral-900.rounded-2xl.p-6.shadow-sm.border.border-neutral-100.dark:border-neutral-800
+                  div.profile-tab.max-w-lg.w-full.mx-auto.bg-white.dark:bg-neutral-900.rounded-2xl.shadow-sm.border.border-neutral-100 [+10]
+                    div.flex.items-start.justify-between.gap-4.mb-6
+                      div
+                        h2.text-xl.font-bold.text-neutral-900.dark:text-white — Profile Information
+                        p.text-sm.text-neutral-500.dark:text-neutral-400.mt-1
+                      button.flex.shrink-0.items-center.gap-2.cursor-pointer.border.border-green-500.text-green-600.dark:text-green-400.px-4 [+7] — Edit Profile
+                        svg.w-4.h-4
+                    div.flex.flex-col
+                      div.flex.items-center.gap-3.xs:gap-4.py-4.border-b.border-neutral-100.dark:border-neutral-800.last:border-0
+                        div.flex.shrink-0.items-center.justify-center.w-8.h-8.xs:w-9.xs:h-9.rounded-lg.bg-green-50 [+3]
+                          svg.w-4.h-4.xs:w-5.xs:h-5
+                        span.w-24.xs:w-28.sm:w-36.shrink-0.text-xs.xs:text-sm.text-neutral-500.dark:text-neutral-400
+                        span.text-xs.xs:text-sm.font-semibold.text-neutral-900.dark:text-white.break-all.min-w-0
+                      div.flex.items-center.gap-3.xs:gap-4.py-4.border-b.border-neutral-100.dark:border-neutral-800.last:border-0
+                        div.flex.shrink-0.items-center.justify-center.w-8.h-8.xs:w-9.xs:h-9.rounded-lg.bg-green-50 [+3]
+                          svg.w-4.h-4.xs:w-5.xs:h-5
+                        span.w-24.xs:w-28.sm:w-36.shrink-0.text-xs.xs:text-sm.text-neutral-500.dark:text-neutral-400
+                        span.text-xs.xs:text-sm.font-semibold.text-neutral-900.dark:text-white.break-all.min-w-0
+                      div.flex.items-center.gap-3.xs:gap-4.py-4.border-b.border-neutral-100.dark:border-neutral-800.last:border-0
+                        div.flex.shrink-0.items-center.justify-center.w-8.h-8.xs:w-9.xs:h-9.rounded-lg.bg-green-50 [+3]
+                          svg.w-4.h-4.xs:w-5.xs:h-5
+                        span.w-24.xs:w-28.sm:w-36.shrink-0.text-xs.xs:text-sm.text-neutral-500.dark:text-neutral-400
+                        span.text-xs.xs:text-sm.font-semibold.text-neutral-900.dark:text-white.break-all.min-w-0
+                      div.flex.items-center.gap-3.xs:gap-4.py-4.border-b.border-neutral-100.dark:border-neutral-800.last:border-0
+                        div.flex.shrink-0.items-center.justify-center.w-8.h-8.xs:w-9.xs:h-9.rounded-lg.bg-green-50 [+3]
+                          svg.w-4.h-4.xs:w-5.xs:h-5
+                        span.w-24.xs:w-28.sm:w-36.shrink-0.text-xs.xs:text-sm.text-neutral-500.dark:text-neutral-400
+                        span.text-xs.xs:text-sm.font-semibold.text-neutral-900.dark:text-white.break-all.min-w-0
+                      div.flex.items-center.gap-3.xs:gap-4.py-4.border-b.border-neutral-100.dark:border-neutral-800.last:border-0
+                        div.flex.shrink-0.items-center.justify-center.w-8.h-8.xs:w-9.xs:h-9.rounded-lg.bg-green-50 [+3]
+                          svg.w-4.h-4.xs:w-5.xs:h-5
+                        span.w-24.xs:w-28.sm:w-36.shrink-0.text-xs.xs:text-sm.text-neutral-500.dark:text-neutral-400
+                        span.text-xs.xs:text-sm.font-semibold.text-neutral-900.dark:text-white.break-all.min-w-0
+                      div.flex.items-center.gap-3.xs:gap-4.py-4.border-b.border-neutral-100.dark:border-neutral-800.last:border-0
+                        div.flex.shrink-0.items-center.justify-center.w-8.h-8.xs:w-9.xs:h-9.rounded-lg.bg-green-50 [+3]
+                          svg.w-4.h-4.xs:w-5.xs:h-5
+                        span.w-24.xs:w-28.sm:w-36.shrink-0.text-xs.xs:text-sm.text-neutral-500.dark:text-neutral-400
+                        span.text-xs.xs:text-sm.font-semibold.text-neutral-900.dark:text-white.break-all.min-w-0
+      div.mx-auto.w-full.px-4.md:px-6.lg:px-8.py-10.md:py-12.bg-white.dark:bg-neutral-950.border-t [+2]
+        div.max-w-screen-2xl.mx-auto
+          div.mx-auto.my-16.mt-16.sm:mt-0.w-full.lg:my-12.md:my-20.md:max-w-4xl.px-4.py-8
+            div.grid.grid-cols-2.md:grid-cols-4.gap-4.md:gap-6.mb-10
+              div.flex.flex-col.items-center.justify-center.gap-2.5.text-center.py-4.px-3.rounded-2xl.bg-neutral-50 [+4]
+                div.w-10.h-10.flex.items-center.justify-center.rounded-full.text-white.dark:text-neutral-900
+                  svg.fill-white.stroke-neutral-900.dark:fill-neutral-900.dark:stroke-neutral-300
+                p.max-w-[180px].text-center.font-archivo.text-xs.font-medium.text-neutral-600.dark:text-neutral-400.leading-snug
+              div.flex.flex-col.items-center.justify-center.gap-2.5.text-center.py-4.px-3.rounded-2xl.bg-neutral-50 [+4]
+                div.w-10.h-10.flex.items-center.justify-center.rounded-full.text-white.dark:text-neutral-900
+                  svg.fill-white.stroke-neutral-900.dark:fill-neutral-900.dark:stroke-neutral-300
+                p.max-w-[180px].text-center.font-archivo.text-xs.font-medium.text-neutral-600.dark:text-neutral-400.leading-snug
+              div.flex.flex-col.items-center.justify-center.gap-2.5.text-center.py-4.px-3.rounded-2xl.bg-neutral-50 [+4]
+                div.w-10.h-10.flex.items-center.justify-center.rounded-full.text-white.dark:text-neutral-900
+                  svg.fill-white.stroke-neutral-900.dark:fill-neutral-900.dark:stroke-neutral-300
+                p.max-w-[180px].text-center.font-archivo.text-xs.font-medium.text-neutral-600.dark:text-neutral-400.leading-snug
+              div.flex.flex-col.items-center.justify-center.gap-2.5.text-center.py-4.px-3.rounded-2xl.bg-neutral-50 [+4]
+                div.w-10.h-10.flex.items-center.justify-center.rounded-full.text-white.dark:text-neutral-900
+                  svg.fill-white.stroke-neutral-900.dark:fill-neutral-900.dark:stroke-neutral-300
+                p.max-w-[180px].text-center.font-archivo.text-xs.font-medium.text-neutral-600.dark:text-neutral-400.leading-snug
+      footer.hidden.lg:block.bg-neutral-50.dark:bg-neutral-900/50.text-neutral-700.dark:text-neutral-300
+        div.mx-auto.w-full.max-w-screen-2xl.px-4.md:px-6.lg:px-8.py-12.md:py-14
+          div.grid.grid-cols-1.md:grid-cols-2.lg:grid-cols-12.gap-10
+            div.lg:col-span-3.flex.flex-col.gap-4
+              a.flex.items-center.gap-2.cursor-pointer.w-fit
+                div.flex.items-center.gap-x-2
+                  div.!min-h-8.!min-w-8.flex.items-center.justify-center.rounded-lg.bg-emerald-500
+                    svg
+                      rect.fill-white
+                      rect.fill-white
+                  p.text-sm.font-bold.text-neutral-900.dark:text-white
+                span.sr-only
+              p.text-sm.text-neutral-500.dark:text-neutral-400.leading-relaxed.max-w-[260px]
+              div.flex.gap-3.mt-1
+                a.cursor-pointer.w-9.h-9.flex.items-center.justify-center.rounded-full.bg-neutral-100.dark:bg-neutral-800.text-neutral-500 [+6]
+                  svg.fill-black/[62].dark:fill-white
+                a.cursor-pointer.w-9.h-9.flex.items-center.justify-center.rounded-full.bg-neutral-100.dark:bg-neutral-800.text-neutral-500 [+6]
+                  svg.w-5.h-5
+                a.cursor-pointer.w-9.h-9.flex.items-center.justify-center.rounded-full.bg-neutral-100.dark:bg-neutral-800.text-neutral-500 [+6]
+                  svg.fill-black/[62].dark:fill-white
+            div.lg:col-span-5
+              div.flex.justify-between.gap-x-8.lg:gap-x-[50px]
+                nav.w-full.lg:min-w-[160px].xl:min-w-[200px]
+                  ul
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                nav.w-full.lg:min-w-[160px].xl:min-w-[200px]
+                  ul
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+            div.lg:col-span-4
+              form.mt-8.lg:mt-0.w-full.relative
+                div.mb-3
+                  h3.mb-1.text-sm.font-bold.text-neutral-900.dark:text-white — Stay Updated
+                  p.text-xs.text-neutral-500.dark:text-neutral-400
+                div.flex.flex-col.lg:flex-row.gap-2
+                  input.flex-1.rounded-xl.px-4.py-2.5.text-sm.focus:outline-none.focus:ring-2.focus:ring-neutral-300.dark:focus:ring-neutral-600.bg-white [+10]
+                  button.relative.flex.w-full.text-base.md:text-lg.cursor-pointer.font-archivo.font-semibold.items-center.justify-center [+19] — Subscribe
+                    div.mx-2.flex.items-center.justify-center.gap-2
+                      span
+        div.border-t.border-neutral-200.dark:border-neutral-800.py-4
+          div.mx-auto.w-full.max-w-screen-2xl.px-4.md:px-6.lg:px-8.flex.flex-col.md:flex-row.items-center [+5]
+            p
+            p
+span.dsv-2025.04.19-7e29
+deepl-input-controller
+  template
+next-route-announcer
+  template

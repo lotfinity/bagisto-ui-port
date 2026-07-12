@@ -1,0 +1,34 @@
+CUSTOMER-PROFILE HTML ↔ CSS ANALYSIS
+================================
+
+Title: Bagisto Headless
+HTML size: 0.23 MB
+Elements: 358
+Images: 0
+Links: 20
+Buttons: 14
+Forms: 1
+Style tags: 3
+Script tags: 0
+
+HTML unique classes: 394
+Compiled CSS classes: 2970
+Inline CSS classes: 896
+HTML classes found in compiled CSS: 385
+HTML classes missing from compiled CSS: 9
+HTML classes missing from all CSS: 8
+Compiled CSS unique coverage: 97.72%
+Compiled CSS weighted coverage: 99.3%
+
+Top classes missing from compiled CSS:
+  3 × sf-hidden
+  1 × customer-layout-wrapper
+  1 × desktop-customer-layout
+  1 × dl-input-translation-container
+  1 × dsv-2025.04.19-7e29
+  1 × font-inherit
+  1 × hero-banner
+  1 × profile-tab
+  1 × svelte-95aucy
+
+Output directory: /home/lofa/Downloads/bagisto-ui-port/analysis/private/customer-profile

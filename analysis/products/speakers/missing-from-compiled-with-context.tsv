@@ -1,0 +1,6 @@
+count	class	samples
+1	animate-in	<div.animate-in.fade-in.duration-300> "AttributeValueBrandSoundNova,ModelStereo 2.0 Speakers,CompatibilityPC & Laptop,Connectivity3.5mm Aux"
+1	dsv-2025.04.19-7e29	<span.dsv-2025.04.19-7e29>
+1	fade-in	<div.animate-in.fade-in.duration-300> "AttributeValueBrandSoundNova,ModelStereo 2.0 Speakers,CompatibilityPC & Laptop,Connectivity3.5mm Aux"
+1	font-inherit	<input.font-inherit.text-[100%].leading-[1.15].m-0.p-0.overflow-visible.box-border.absolute>
+1	input	<input.input.w-full.rounded-xl.border.border-neutral-700.bg-neutral-800.py-2.pl-4>

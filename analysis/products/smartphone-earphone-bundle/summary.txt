@@ -1,0 +1,30 @@
+SMARTPHONE-EARPHONE-BUNDLE HTML ↔ CSS ANALYSIS
+================================
+
+Title: Bagisto Headless
+HTML size: 2.98 MB
+Elements: 694
+Images: 2
+Links: 23
+Buttons: 47
+Forms: 2
+Style tags: 3
+Script tags: 86
+
+HTML unique classes: 421
+Compiled CSS classes: 2970
+Inline CSS classes: 2970
+HTML classes found in compiled CSS: 416
+HTML classes missing from compiled CSS: 5
+HTML classes missing from all CSS: 5
+Compiled CSS unique coverage: 98.81%
+Compiled CSS weighted coverage: 99.81%
+
+Top classes missing from compiled CSS:
+  1 × animate-in
+  1 × dsv-2025.04.19-7e29
+  1 × fade-in
+  1 × font-inherit
+  1 × input
+
+Output directory: /home/lofa/Downloads/bagisto-ui-port/analysis/products/smartphone-earphone-bundle
