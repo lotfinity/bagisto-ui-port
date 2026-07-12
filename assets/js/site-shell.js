@@ -130,18 +130,13 @@
         button.addEventListener("click", () => openDialog(sibling));
       }
     });
-
-    document.addEventListener("keydown", (event) => {
-      if (event.key !== "Escape") return;
-
-      dialogs()
-        .filter((dialog) => !dialog.classList.contains("translate-x-full"))
-        .forEach(closeDialog);
-    });
   }
 
   function initMobileNavigation() {
     const cartDialog = findDialog("Shopping Cart");
+    const categoryDestination = all('header a[href]').find(
+      (link) => normalizedText(link) === "All",
+    )?.href || "/search";
 
     all("button").forEach((button) => {
       const text = normalizedText(button);
@@ -152,15 +147,119 @@
 
       if (text === "Categories") {
         button.addEventListener("click", () => {
-          window.location.href = "/search";
+          window.location.href = categoryDestination;
         });
       }
 
       if (text === "Account") {
         button.addEventListener("click", () => {
-          window.location.href = "/customer-details";
+          window.location.href = "https://bagisto-headless-electronic.vercel.app/customer-details";
         });
       }
+    });
+  }
+
+  function listboxes() {
+    return all('[role="listbox"]');
+  }
+
+  function triggerForListbox(listbox) {
+    const previous = listbox.previousElementSibling;
+    if (previous?.tagName === "BUTTON") return previous;
+
+    const parent = listbox.parentElement;
+    if (!parent) return null;
+
+    return parent.querySelector('button[aria-haspopup="listbox"]')
+      || [...parent.children].find((child) => child.tagName === "BUTTON")
+      || null;
+  }
+
+  function listboxIsOpen(listbox) {
+    return !listbox.classList.contains("pointer-events-none")
+      && !listbox.classList.contains("opacity-0");
+  }
+
+  function setListboxState(listbox, open) {
+    const trigger = triggerForListbox(listbox);
+
+    listbox.hidden = false;
+    listbox.classList.toggle("pointer-events-none", !open);
+    listbox.classList.toggle("opacity-0", !open);
+    listbox.classList.toggle("-translate-y-1", !open);
+    listbox.classList.toggle("opacity-100", open);
+    listbox.classList.toggle("translate-y-0", open);
+
+    trigger?.setAttribute("aria-expanded", String(open));
+
+    const icon = trigger?.querySelector("svg:last-child");
+    icon?.classList.toggle("rotate-180", open);
+  }
+
+  function closeListboxes(except = null) {
+    listboxes().forEach((listbox) => {
+      if (listbox !== except) setListboxState(listbox, false);
+    });
+  }
+
+  function selectListboxOption(listbox, option) {
+    const trigger = triggerForListbox(listbox);
+    if (!trigger) return;
+
+    const value = normalizedText(option.querySelector("span") || option);
+    const label = trigger.querySelector("span.truncate, span.flex-1, span");
+
+    if (label) label.textContent = value;
+
+    trigger.classList.remove("text-neutral-400", "dark:text-neutral-500");
+    trigger.classList.add("text-neutral-900", "dark:text-white");
+
+    all('[role="option"]', listbox).forEach((candidate) => {
+      const selected = candidate === option;
+      candidate.setAttribute("aria-selected", String(selected));
+      candidate.classList.toggle("bg-emerald-50", selected);
+      candidate.classList.toggle("dark:bg-emerald-900/20", selected);
+      candidate.classList.toggle("text-emerald-700", selected);
+      candidate.classList.toggle("dark:text-emerald-400", selected);
+      candidate.classList.toggle("font-medium", selected);
+    });
+
+    setListboxState(listbox, false);
+    trigger.focus();
+  }
+
+  function initListboxes() {
+    listboxes().forEach((listbox) => {
+      const trigger = triggerForListbox(listbox);
+      if (!trigger) return;
+
+      trigger.setAttribute("aria-haspopup", "listbox");
+      setListboxState(listbox, false);
+
+      trigger.addEventListener("click", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+
+        const willOpen = !listboxIsOpen(listbox);
+        closeListboxes(listbox);
+        setListboxState(listbox, willOpen);
+      });
+
+      all('[role="option"]', listbox).forEach((option) => {
+        option.addEventListener("click", (event) => {
+          event.preventDefault();
+          event.stopPropagation();
+          selectListboxOption(listbox, option);
+        });
+      });
+    });
+
+    document.addEventListener("click", (event) => {
+      listboxes().forEach((listbox) => {
+        const trigger = triggerForListbox(listbox);
+        if (listbox.contains(event.target) || trigger?.contains(event.target)) return;
+        setListboxState(listbox, false);
+      });
     });
   }
 
@@ -217,10 +316,21 @@
     });
   }
 
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape") return;
+
+    dialogs()
+      .filter((dialog) => !dialog.classList.contains("translate-x-full"))
+      .forEach(closeDialog);
+
+    closeListboxes();
+  });
+
   document.addEventListener("DOMContentLoaded", () => {
     initTheme();
     initDialogs();
     initMobileNavigation();
+    initListboxes();
     initProductGallery();
     initQuantityControls();
   });
