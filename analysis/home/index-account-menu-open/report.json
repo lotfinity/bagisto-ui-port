@@ -1,0 +1,27 @@
+{
+  "page": {
+    "title": "Bagisto Headless",
+    "htmlBytes": 322822,
+    "elements": 703,
+    "images": 0,
+    "links": 22,
+    "buttons": 56,
+    "forms": 1,
+    "styleTags": 1,
+    "scriptTags": 0
+  },
+  "classes": {
+    "htmlUnique": 363,
+    "inlineCssUnique": 1133,
+    "htmlFoundInInlineCss": 326,
+    "htmlMissingFromInlineCss": 37,
+    "uniqueInlineCoveragePercent": 89.81,
+    "weightedInlineCoveragePercent": 91.11
+  },
+  "accountMenu": {
+    "capturedOpen": true,
+    "containsWishlist": true,
+    "containsAddresses": true,
+    "containsGoToAccount": true
+  }
+}
