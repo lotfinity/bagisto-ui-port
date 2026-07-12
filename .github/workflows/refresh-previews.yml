@@ -1,0 +1,49 @@
+name: Refresh preview assets
+
+on:
+  push:
+    branches:
+      - agent/fix-shell-interactions
+    paths:
+      - "assets/**"
+      - "tools/refresh-previews.mjs"
+      - ".github/workflows/refresh-previews.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    if: ${{ !contains(github.event.head_commit.message, '[skip preview refresh]') }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Inject shared CSS and JavaScript
+        run: npm run refresh-previews
+
+      - name: Commit refreshed previews
+        run: |
+          if git diff --quiet -- pages; then
+            echo "Preview files already current."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pages
+          git commit -m "Refresh preview runtime assets [skip preview refresh]"
+          git push
