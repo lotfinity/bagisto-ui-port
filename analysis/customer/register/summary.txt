@@ -1,0 +1,27 @@
+REGISTER HTML ↔ CSS ANALYSIS
+================================
+
+Title: Register
+HTML size: 2.76 MB
+Elements: 511
+Images: 1
+Links: 22
+Buttons: 77
+Forms: 2
+Style tags: 3
+Script tags: 77
+
+HTML unique classes: 354
+Compiled CSS classes: 2970
+Inline CSS classes: 2970
+HTML classes found in compiled CSS: 352
+HTML classes missing from compiled CSS: 2
+HTML classes missing from all CSS: 2
+Compiled CSS unique coverage: 99.44%
+Compiled CSS weighted coverage: 99.92%
+
+Top classes missing from compiled CSS:
+  1 × dsv-2025.04.19-7e29
+  1 × font-inherit
+
+Output directory: /home/lofa/Downloads/bagisto-ui-port/analysis/customer/register

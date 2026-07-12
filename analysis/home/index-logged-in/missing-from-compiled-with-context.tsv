@@ -1,0 +1,9 @@
+count	class	samples
+24	sf-hidden	<div.sf-hidden> | <div.fixed.inset-x-0.bottom-0.z-[60].lg:hidden.sf-hidden> | <button.md:hidden.absolute.right-1.top-1/2.-translate-y-1/2.z-10.flex.h-10> | <div.grid.md:hidden.gap-4.grid-cols-1.xxs:grid-cols-2.lg:max-h-[calc(100vh-200px)].sf-hidden>
+7	fill-ptimary	<svg.fill-ptimary.h-5.w-5.dark:fill-transparent.size-5.stroke-current.stroke-[1.5]>
+1	dl-input-translation-container	<div.dl-input-translation-container.svelte-95aucy>
+1	dsv-2025.04.19-7e29	<span.dsv-2025.04.19-7e29>
+1	font-inherit	<input.font-inherit.text-[100%].leading-[1.15].m-0.p-0.overflow-visible.box-border.absolute>
+1	font-outfit	<h1.mb-4.font-outfit.text-xl.md:text-4xl.font-semibold.text-black.dark:text-white> "Popular Products"
+1	md:max-w-4.5xl	<div.md:max-w-4.5xl.mx-auto.mb-10.w-auto.px-0.text-center.md:px-36> "Popular ProductsDiscover the latest trends! Fresh products just added—shop new styles, tech, and ess"
+1	svelte-95aucy	<div.dl-input-translation-container.svelte-95aucy>

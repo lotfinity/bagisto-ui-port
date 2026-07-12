@@ -1,0 +1,33 @@
+INDEX-LOGGED-IN HTML ↔ CSS ANALYSIS
+================================
+
+Title: Bagisto Headless
+HTML size: 0.50 MB
+Elements: 978
+Images: 31
+Links: 84
+Buttons: 52
+Forms: 1
+Style tags: 4
+Script tags: 0
+
+HTML unique classes: 454
+Compiled CSS classes: 2970
+Inline CSS classes: 939
+HTML classes found in compiled CSS: 446
+HTML classes missing from compiled CSS: 8
+HTML classes missing from all CSS: 7
+Compiled CSS unique coverage: 98.24%
+Compiled CSS weighted coverage: 99.24%
+
+Top classes missing from compiled CSS:
+  24 × sf-hidden
+  7 × fill-ptimary
+  1 × dl-input-translation-container
+  1 × dsv-2025.04.19-7e29
+  1 × font-inherit
+  1 × font-outfit
+  1 × md:max-w-4.5xl
+  1 × svelte-95aucy
+
+Output directory: /home/lofa/Downloads/bagisto-ui-port/analysis/home/index-logged-in

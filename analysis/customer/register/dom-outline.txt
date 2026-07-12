@@ -1,0 +1,372 @@
+div
+main.bg-white.dark:bg-neutral-950
+  div
+    div.fixed.left-1/2.z-[999].w-[80%].-translate-x-1/2.sm:max-w-md.top-4.bottom-auto.md:bottom-4.md:top-auto
+    main.bg-white.dark:bg-neutral-950
+      header.fixed.top-0.left-0.right-0.z-[60]
+        div.w-full.px-4.md:px-6.lg:px-8.pt-2.md:pt-3
+          nav.relative.mx-auto.rounded-xl.bg-neutral-900.dark:bg-neutral-900.px-4.md:px-6.lg:px-8.py-2.5.md:py-3 [+1]
+            div.flex.w-full.items-center.justify-between.max-w-screen-2xl.mx-auto
+              div.flex.items-center.gap-3
+                a.flex.h-8.w-auto.items-center.md:h-9
+                  div.flex.items-center.gap-x-2
+                    div.!min-h-9.!min-w-9.flex.items-center.justify-center.rounded-lg.bg-emerald-500
+                      svg
+                        rect.fill-white
+                        rect.fill-white
+                    p.text-sm.font-semibold.text-neutral-300
+              div.fixed.inset-x-0.bottom-0.z-[60].lg:hidden
+                nav.px-3.h-16.border-t.border-neutral-200.bg-white.dark:border-neutral-800.dark:bg-black
+                  div.flex.h-full.items-center.justify-between
+                    a.flex.flex-col.items-center.gap-1.text-xs.font-semibold.py-2.rounded-lg.transition-colors.cursor-pointer
+                      div.flex.items-center.justify-center.rounded-full.transition-all.duration-300.px-6.py-1.bg-selected-color.dark:bg-selected-bg-bottom-dark [+1]
+                        svg.fill-transparent.stroke-current.dark:fill-transparent
+                      span
+                    button.flex.flex-col.items-center.gap-1.text-xs.font-semibold.py-2.rounded-lg.transition-colors.cursor-pointer — Categories
+                      div.flex.items-center.justify-center.rounded-full.transition-all.duration-300.px-6.py-1.bg-transparent.text-neutral-900 [+1]
+                        svg.fill-transparent.stroke-current.dark:fill-transparent
+                      span
+                    button.flex.flex-col.items-center.gap-1.text-xs.font-semibold.py-2.rounded-lg.transition-colors.cursor-pointer [+1] — Cart
+                      div.flex.items-center.justify-center.rounded-full.transition-all.duration-300.px-6.py-1.bg-transparent.text-neutral-900 [+1]
+                        div.relative.flex.items-center.justify-center.rounded-md.border-0.lg:border.border-solid.border-neutral-200.dark:border-neutral-700 [+2]
+                          svg.h-5.w-5
+                      span
+                    button.flex.flex-col.items-center.gap-1.text-xs.font-semibold.py-2.rounded-lg.transition-colors.cursor-pointer [+5] — Account
+                      div.flex.items-center.justify-center.rounded-full.transition-all.duration-300.px-6.py-1.bg-transparent.text-neutral-900 [+1]
+                        div.relative.flex.items-center.justify-center.rounded-md.lg:h-11.lg:w-11.text-white
+                          svg.h-5.w-5.text-black.dark:text-white
+                      span
+              ul.hidden.gap-0.5.text-sm.md:flex.items-center
+                li.relative
+                  a.font-medium.text-neutral-300.hover:text-white.px-3.lg:px-4.py-2.rounded-full.transition-colors.duration-200.hover:bg-white/10 [+3]
+                li.relative
+                  a.font-medium.text-neutral-300.hover:text-white.px-3.lg:px-4.py-2.rounded-full.transition-colors.duration-200.hover:bg-white/10 [+3]
+                li.relative
+                  a.font-medium.text-neutral-300.hover:text-white.px-3.lg:px-4.py-2.rounded-full.transition-colors.duration-200.hover:bg-white/10 [+3]
+                li.relative
+                  a.font-medium.text-neutral-300.hover:text-white.px-3.lg:px-4.py-2.rounded-full.transition-colors.duration-200.hover:bg-white/10 [+3]
+                li.relative
+                  a.font-medium.text-neutral-300.hover:text-white.px-3.lg:px-4.py-2.rounded-full.transition-colors.duration-200.hover:bg-white/10 [+3]
+              div.flex.items-center.gap-2.md:gap-3
+                div.flex
+                  button.p-2.text-white.transition-colors.cursor-pointer.rounded-full.hover:bg-white/10
+                    svg.w-5.h-5
+                  div.fixed.inset-0.z-40.bg-black/40.backdrop-blur-sm.transition-opacity.duration-300.ease-out.cursor-pointer.opacity-0 [+1]
+                  div.fixed.right-0.top-0.z-50.h-full.w-full.max-w-[420px].bg-white.dark:bg-neutral-900.shadow-2xl [+4]
+                    div.flex.items-center.justify-between.px-6.py-5.border-b.border-neutral-100.dark:border-neutral-800
+                      h2.text-lg.font-bold.text-neutral-900.dark:text-white — Search
+                      button.p-1.rounded-full.hover:bg-neutral-100.dark:hover:bg-neutral-800.transition-colors.cursor-pointer
+                        svg.w-6.h-6.text-neutral-500
+                    div.px-6.py-4
+                      div.relative
+                        input.w-full.px-4.py-3.pr-12.text-sm.bg-white.dark:bg-neutral-800.border.border-neutral-200.dark:border-neutral-700 [+9]
+                        button.absolute.right-2.top-1/2.-translate-y-1/2.p-2.text-neutral-400.hover:text-neutral-600.dark:hover:text-neutral-300.transition-colors.cursor-pointer
+                          svg.w-5.h-5
+                    div.border-t.border-neutral-100.dark:border-neutral-800
+                    div.overflow-y-auto.h-[calc(100vh-180px)].py-4.px-6
+                      div.py-12.text-center
+                        svg.w-12.h-12.mx-auto.text-neutral-300.dark:text-neutral-600.mb-3
+                        p.text-neutral-500.dark:text-neutral-400
+                div.hidden.lg:flex
+                  button.cursor-pointer.bg-transparent.hover:bg-white/10.rounded-full.transition-colors
+                    div.relative.flex.items-center.justify-center.rounded-md.lg:h-11.lg:w-11.text-white
+                      svg.h-5.w-5
+                div.hidden.lg:flex
+                  button.relative.p-2.text-white.transition-colors.cursor-pointer.rounded-full.hover:bg-white/10
+                    svg.w-5.h-5
+                  div.fixed.inset-0.z-50.bg-black/40.backdrop-blur-sm.transition-opacity.duration-300.ease-out.cursor-pointer.opacity-0 [+1]
+                  div.fixed.right-0.top-0.z-50.h-full.w-full.max-w-[420px].bg-white.dark:bg-neutral-900.shadow-2xl [+6]
+                    div.flex.items-center.justify-between.px-6.py-6
+                      h2.text-2xl.font-semibold.text-neutral-900.dark:text-white — Shopping Cart
+                      button.p-1.rounded-full.cursor-pointer.hover:bg-neutral-100.dark:hover:bg-neutral-800.transition-colors
+                        svg.w-6.h-6.text-neutral-900.dark:text-white
+                    div.mx-6.border-b.border-neutral-100.dark:border-neutral-800
+                    div.flex-1.overflow-y-auto.px-6
+                      div.flex.flex-col.items-center.justify-center.h-64.text-center
+                        svg.w-16.h-16.text-neutral-300.dark:text-neutral-600.mb-4
+                        p.text-xl.font-bold.text-neutral-900.dark:text-white.mb-2
+                        p.text-neutral-500.dark:text-neutral-400
+                div.flex
+                  label.group.relative.max-w-fit.touch-none.tap-highlight-transparent.select-none.flex.size-9.lg:size-10.cursor-pointer [+12]
+                    div
+                      input.font-inherit.text-[100%].leading-[1.15].m-0.p-0.overflow-visible.box-border.absolute.top-0.w-full [+5]
+                    div.relative.shrink-0.overflow-hidden.rounded-full.outline-solid.outline-transparent.group-data-[focus-visible=true]:z-10.group-data-[focus-visible=true]:ring-2.group-data-[focus-visible=true]:ring-focus.group-data-[focus-visible=true]:ring-offset-2 [+15]
+                      svg.text-white.hover:text-neutral-200.transition-colors
+      div.mx-auto.min-h-[calc(100vh-580px)].w-full.bg-white.dark:bg-neutral-950
+        div.w-full.mt-12.sm:mt-0.min-h-[calc(100vh-80px)].flex.items-center.justify-center.px-3.xs:px-4.sm:px-6 [+3]
+          div.w-full.max-w-screen-xl.flex.items-center.gap-8.lg:gap-12.xl:gap-16
+            div.w-full.lg:max-w-[520px].xl:max-w-[560px].flex-shrink-0.mx-auto.lg:mx-0
+              div.bg-white.dark:bg-neutral-900.rounded-2xl.shadow-sm.border.border-neutral-100.dark:border-neutral-800.p-5.xs:p-6.sm:p-8 [+5]
+                div.flex.flex-col.xs:flex-row.xs:items-start.xs:justify-between.gap-3.mb-5.sm:mb-6
+                  div.min-w-0
+                    h2.text-xl.sm:text-2xl.font-bold.text-neutral-900.dark:text-white.flex.items-center.gap-2 — Create your account
+                      span.truncate
+                      span.text-emerald-600.dark:text-emerald-400.flex-shrink-0
+                        svg.w-10.h-10
+                          circle
+                          line
+                          line
+                    p.text-xs.sm:text-sm.text-neutral-500.dark:text-neutral-400.mt-1
+                  a.flex-shrink-0.self-start.px-3.py-1.5.rounded-full.border.border-neutral-300.dark:border-neutral-600.text-xs.sm:text-sm [+7]
+                    span.text-emerald-600.dark:text-emerald-400.font-medium
+                form.flex.flex-col.gap-y-3.sm:gap-y-4
+                  div
+                    label.block.text-sm.font-medium.text-neutral-700.dark:text-neutral-300.mb-1.5 — Full Name *
+                      span.text-red-500
+                    div.relative
+                      span.absolute.left-3.top-1/2.-translate-y-1/2.text-emerald-500
+                        svg.w-4.h-4
+                          circle
+                      input#signup-name.w-full.py-2.5.sm:py-3.rounded-lg.border.bg-white.dark:bg-neutral-900.text-neutral-900.dark:text-white.text-sm [+10]
+                  div.flex.flex-col.sm:flex-row.gap-3
+                    div.flex-1.min-w-0
+                      label.block.text-sm.font-medium.text-neutral-700.dark:text-neutral-300.mb-1.5 — Email Address *
+                        span.text-red-500
+                      div.relative
+                        span.absolute.left-3.top-1/2.-translate-y-1/2.text-emerald-500
+                          svg.w-4.h-4
+                            rect
+                        input#signup-email.w-full.py-2.5.sm:py-3.rounded-lg.border.bg-white.dark:bg-neutral-900.text-neutral-900.dark:text-white.text-sm [+10]
+                    div.flex-1.min-w-0
+                      label.block.text-sm.font-medium.text-neutral-700.dark:text-neutral-300.mb-1.5 — Phone Number *
+                        span.text-red-500
+                      div.relative
+                        span.absolute.left-3.top-1/2.-translate-y-1/2.text-emerald-500
+                          svg.w-4.h-4
+                        input#signup-phone.w-full.py-2.5.sm:py-3.rounded-lg.border.bg-white.dark:bg-neutral-900.text-neutral-900.dark:text-white.text-sm [+10]
+                  div
+                    label.block.text-sm.font-medium.text-neutral-700.dark:text-neutral-300.mb-1.5 — Country *
+                      span.text-red-500
+                    div.relative
+                      span.absolute.left-3.top-[13px].z-10.text-emerald-500.pointer-events-none
+                        svg.w-4.h-4
+                          circle
+                      div.relative.[&>button]:pl-10
+                        button.flex.w-full.items-center.justify-between.gap-2.rounded-lg.border.px-3.py-2.text-sm [+10] — Select your country
+                          span.truncate.text-left.flex-1
+                          svg.h-4.w-4.shrink-0.transition-transform.duration-200
+                        div.absolute.left-0.right-0.z-50.mt-2.max-h-64.overflow-y-auto.rounded-xl.border.border-neutral-200 [+9]
+                          div.py-1
+                            div
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Afghanistan
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Albania
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Algeria
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Argentina
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Australia
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Austria
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Bangladesh
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Belgium
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Brazil
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Canada
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Chile
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — China
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Colombia
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Croatia
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Czech Republic
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Denmark
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Egypt
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Ethiopia
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Finland
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — France
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Germany
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Ghana
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Greece
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Hungary
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — India
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Indonesia
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Iran
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Iraq
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Ireland
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Israel
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Italy
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Japan
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Jordan
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Kenya
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Malaysia
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Mexico
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Morocco
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Netherlands
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — New Zealand
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Nigeria
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Norway
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Pakistan
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Peru
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Philippines
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Poland
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Portugal
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Romania
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Russia
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Saudi Arabia
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Singapore
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — South Africa
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — South Korea
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Spain
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Sri Lanka
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Sweden
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Switzerland
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Thailand
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Turkey
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Ukraine
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — United Arab Emirates
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — United Kingdom
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — United States
+                                span.truncate
+                              button.flex.w-full.cursor-pointer.items-center.justify-between.gap-2.px-3.py-2.text-left.text-xs [+6] — Vietnam
+                                span.truncate
+                  div.flex.flex-col.sm:flex-row.gap-3
+                    div.flex-1.min-w-0
+                      label.block.text-sm.font-medium.text-neutral-700.dark:text-neutral-300.mb-1.5 — Password *
+                        span.text-red-500
+                      div.relative
+                        span.absolute.left-3.top-1/2.-translate-y-1/2.text-emerald-500
+                          svg.w-4.h-4
+                            rect
+                        input#signup-password.w-full.py-2.5.sm:py-3.rounded-lg.border.bg-white.dark:bg-neutral-900.text-neutral-900.dark:text-white.text-sm [+10]
+                        button.absolute.right-3.top-1/2.-translate-y-1/2.text-neutral-400.hover:text-neutral-600.dark:hover:text-neutral-200.transition-colors
+                          svg.w-4.h-4
+                            circle
+                    div.flex-1.min-w-0
+                      label.block.text-sm.font-medium.text-neutral-700.dark:text-neutral-300.mb-1.5 — Confirm Password *
+                        span.text-red-500
+                      div.relative
+                        span.absolute.left-3.top-1/2.-translate-y-1/2.text-emerald-500
+                          svg.w-4.h-4
+                            rect
+                        input#signup-confirm-password.w-full.py-2.5.sm:py-3.rounded-lg.border.bg-white.dark:bg-neutral-900.text-neutral-900.dark:text-white.text-sm [+10]
+                        button.absolute.right-3.top-1/2.-translate-y-1/2.text-neutral-400.hover:text-neutral-600.dark:hover:text-neutral-200.transition-colors
+                          svg.w-4.h-4
+                            circle
+                  div.flex.items-center.gap-2.px-3.py-2.5.rounded-lg.bg-emerald-50.dark:bg-emerald-900/20.border.border-emerald-200 [+1]
+                    span.text-emerald-500.flex-shrink-0
+                      svg.w-4.h-4
+                        rect
+                    p.text-xs.text-emerald-700.dark:text-emerald-400
+                  button.w-full.py-2.5.sm:py-3.rounded-lg.bg-emerald-500.hover:bg-emerald-600.active:bg-emerald-700.text-white.font-semibold.text-sm [+5] — Sign up
+            div.relative.hidden.lg:block.flex-1.min-w-0.rounded-2xl.overflow-hidden
+              img.object-cover
+      div.mx-auto.w-full.px-4.md:px-6.lg:px-8.py-10.md:py-12.bg-white.dark:bg-neutral-950.border-t [+2]
+        div.max-w-screen-2xl.mx-auto
+      footer.hidden.lg:block.bg-neutral-50.dark:bg-neutral-900/50.text-neutral-700.dark:text-neutral-300
+        div.mx-auto.w-full.max-w-screen-2xl.px-4.md:px-6.lg:px-8.py-12.md:py-14
+          div.grid.grid-cols-1.md:grid-cols-2.lg:grid-cols-12.gap-10
+            div.lg:col-span-3.flex.flex-col.gap-4
+              a.flex.items-center.gap-2.cursor-pointer.w-fit
+                div.flex.items-center.gap-x-2
+                  div.!min-h-8.!min-w-8.flex.items-center.justify-center.rounded-lg.bg-emerald-500
+                    svg
+                      rect.fill-white
+                      rect.fill-white
+                  p.text-sm.font-bold.text-neutral-900.dark:text-white
+                span.sr-only
+              p.text-sm.text-neutral-500.dark:text-neutral-400.leading-relaxed.max-w-[260px]
+              div.flex.gap-3.mt-1
+                a.cursor-pointer.w-9.h-9.flex.items-center.justify-center.rounded-full.bg-neutral-100.dark:bg-neutral-800.text-neutral-500 [+6]
+                  svg.fill-black/[62].dark:fill-white
+                a.cursor-pointer.w-9.h-9.flex.items-center.justify-center.rounded-full.bg-neutral-100.dark:bg-neutral-800.text-neutral-500 [+6]
+                  svg.w-5.h-5
+                a.cursor-pointer.w-9.h-9.flex.items-center.justify-center.rounded-full.bg-neutral-100.dark:bg-neutral-800.text-neutral-500 [+6]
+                  svg.fill-black/[62].dark:fill-white
+            div.lg:col-span-5
+              div.flex.justify-between.gap-x-8.lg:gap-x-[50px]
+                nav.w-full.lg:min-w-[160px].xl:min-w-[200px]
+                  ul
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                nav.w-full.lg:min-w-[160px].xl:min-w-[200px]
+                  ul
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+            div.lg:col-span-4
+              form.mt-8.lg:mt-0.w-full.relative
+                div.mb-3
+                  h3.mb-1.text-sm.font-bold.text-neutral-900.dark:text-white — Stay Updated
+                  p.text-xs.text-neutral-500.dark:text-neutral-400
+                div.flex.flex-col.lg:flex-row.gap-2
+                  input.flex-1.rounded-xl.px-4.py-2.5.text-sm.focus:outline-none.focus:ring-2.focus:ring-neutral-300.dark:focus:ring-neutral-600.bg-white [+10]
+                  button.relative.flex.w-full.text-base.md:text-lg.cursor-pointer.font-archivo.font-semibold.items-center.justify-center [+34] — Subscribe
+                    div.mx-2.flex.items-center.justify-center.gap-2
+                      span
+        div.border-t.border-neutral-200.dark:border-neutral-800.py-4
+          div.mx-auto.w-full.max-w-screen-2xl.px-4.md:px-6.lg:px-8.flex.flex-col.md:flex-row.items-center [+5]
+            p
+            p
+span.dsv-2025.04.19-7e29
+next-route-announcer
+  template
