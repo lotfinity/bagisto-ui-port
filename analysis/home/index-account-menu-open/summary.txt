@@ -1,0 +1,46 @@
+INDEX-ACCOUNT-MENU-OPEN CAPTURE ANALYSIS
+========================================
+
+Title: Bagisto Headless
+HTML size: 0.31 MB
+Elements: 703
+Images: 0
+Links: 22
+Buttons: 56
+Forms: 1
+Style tags: 1
+Script tags: 0
+
+HTML unique classes: 363
+Inline CSS classes: 1133
+HTML classes found in inline CSS: 326
+HTML classes missing from inline CSS: 37
+Inline CSS unique coverage: 89.81%
+Inline CSS weighted coverage: 91.11%
+
+Account drawer captured open: yes
+Contains Wishlist: yes
+Contains Addresses: yes
+Contains Go to Account: yes
+
+Top classes missing from inline CSS:
+  76 × bg-white
+  64 × text-neutral-600
+  50 × text-neutral-200
+  20 × bg-[#F7F7F8]
+  7 × fill-ptimary
+  7 × size-5
+  6 × border-neutral-100
+  6 × text-neutral-700
+  5 × bg-neutral-50
+  5 × grid
+  4 × border-neutral-200
+  4 × border-neutral-300
+  4 × hidden
+  4 × stroke-neutral-900
+  3 × bg-neutral-100
+  2 × bg-neutral-900
+  2 × text-neutral-300
+  1 × bg-[#F5F7F9]
+  1 × dark:ring-offset-background-dark
+  1 × dark:text-neutral-400
