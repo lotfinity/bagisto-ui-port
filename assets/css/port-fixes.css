@@ -45,6 +45,25 @@ textarea {
   font: inherit;
 }
 
+/*
+ * The homepage source uses `font-outfit`, but the upstream theme does not
+ * define or ship an Outfit font. Keep the intended display-font utility
+ * stable by mapping it to the bundled Archivo family.
+ */
+.font-outfit {
+  font-family: "Archivo", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/*
+ * The homepage also uses a custom 4.5xl width that is absent from the
+ * compiled Tailwind output. This sits midway between Tailwind's 4xl and 5xl.
+ */
+@media (min-width: 48rem) {
+  .md\:max-w-4\.5xl {
+    max-width: 60rem;
+  }
+}
+
 /* SingleFile may preserve this helper class after removing its injected CSS. */
 .sf-hidden {
   display: none !important;
