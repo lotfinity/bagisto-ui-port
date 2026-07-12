@@ -82,44 +82,8 @@ node tools/clean-page.mjs \
     "$CAPTURE_FILE" \
     "$CLEAN_FILE"
 
-python3 - "$CLEAN_FILE" "$PREVIEW_FILE" <<'PY'
-import os
-import sys
-from pathlib import Path
-
-clean_path = Path(sys.argv[1])
-preview_path = Path(sys.argv[2])
-
-css_path = Path("assets/css/bagisto-theme.css").resolve()
-preview_path.parent.mkdir(parents=True, exist_ok=True)
-
-html = clean_path.read_text(encoding="utf-8")
-
-if "</head>" not in html:
-    raise SystemExit(f"No </head> found in {clean_path}")
-
-css_href = os.path.relpath(
-    css_path,
-    preview_path.parent.resolve(),
-).replace(os.sep, "/")
-
-stylesheet = (
-    f'<link rel="stylesheet" '
-    f'href="{css_href}" '
-    f'data-bagisto-port-css>\n'
-)
-
-html = html.replace(
-    "</head>",
-    stylesheet + "</head>",
-    1,
-)
-
-preview_path.write_text(html, encoding="utf-8")
-
-print(f"Created preview: {preview_path}")
-print(f"CSS reference:   {css_href}")
-PY
+cp "$CLEAN_FILE" "$PREVIEW_FILE"
+node tools/refresh-previews.mjs "$PREVIEW_FILE"
 
 echo
 echo "Completed: $NAME"

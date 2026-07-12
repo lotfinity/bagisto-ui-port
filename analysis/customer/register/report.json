@@ -1,0 +1,36 @@
+{
+  "page": {
+    "title": "Register",
+    "htmlBytes": 2894619,
+    "elements": 511,
+    "bodyElements": 452,
+    "hasMain": true,
+    "styleTags": 3,
+    "scriptTags": 77,
+    "stylesheetLinks": 0,
+    "images": 1,
+    "links": 22,
+    "buttons": 77,
+    "forms": 2,
+    "inputs": 8
+  },
+  "classes": {
+    "totalClassUses": 2438,
+    "htmlUnique": 354,
+    "compiledCssUnique": 2970,
+    "inlineCssUnique": 2970,
+    "htmlFoundInCompiled": 352,
+    "htmlMissingFromCompiled": 2,
+    "htmlFoundInInlineCss": 352,
+    "htmlMissingFromAllCss": 2,
+    "inlineOnly": 0,
+    "compiledUnusedOnPage": 2618,
+    "uniqueCompiledCoveragePercent": 99.44,
+    "weightedCompiledCoveragePercent": 99.92
+  },
+  "inlineCss": {
+    "bytes": 411497,
+    "rules": 3205,
+    "parseErrors": []
+  }
+}

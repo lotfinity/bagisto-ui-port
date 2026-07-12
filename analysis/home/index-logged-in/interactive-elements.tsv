@@ -1,0 +1,152 @@
+tag	role	type	id	href	classes	text
+a				https://bagisto-headless-electronic.vercel.app/	flex h-8 w-auto items-center md:h-9	Logoipsum
+a				https://bagisto-headless-electronic.vercel.app/search	font-medium text-neutral-300 hover:text-white px-3 lg:px-4 py-2 rounded-full transition-colors duration-200 hover:bg-white/10 inline-flex items-center gap-1	All
+a				https://bagisto-headless-electronic.vercel.app/smartphones	font-medium text-neutral-300 hover:text-white px-3 lg:px-4 py-2 rounded-full transition-colors duration-200 hover:bg-white/10 inline-flex items-center gap-1	Smartphones
+a				https://bagisto-headless-electronic.vercel.app/headphones	font-medium text-neutral-300 hover:text-white px-3 lg:px-4 py-2 rounded-full transition-colors duration-200 hover:bg-white/10 inline-flex items-center gap-1	Headphones
+a				https://bagisto-headless-electronic.vercel.app/entertainment	font-medium text-neutral-300 hover:text-white px-3 lg:px-4 py-2 rounded-full transition-colors duration-200 hover:bg-white/10 inline-flex items-center gap-1	Entertainment
+a				https://bagisto-headless-electronic.vercel.app/appliances	font-medium text-neutral-300 hover:text-white px-3 lg:px-4 py-2 rounded-full transition-colors duration-200 hover:bg-white/10 inline-flex items-center gap-1	Appliances
+button					p-2 text-white transition-colors cursor-pointer rounded-full hover:bg-white/10	
+div	dialog				fixed right-0 top-0 z-50 h-full w-full max-w-[420px] bg-white dark:bg-neutral-900 shadow-2xl transition-transform duration-300 ease-out translate-x-full	SearchStart typing to search products
+button					p-1 rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors cursor-pointer	
+input		text			w-full px-4 py-3 pr-12 text-sm bg-white dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 rounded-lg text-neutral-900 dark:text-white placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-neutral-900 dark:focus:ring-neutral-500 focus:border-transparent	
+button					absolute right-2 top-1/2 -translate-y-1/2 p-2 text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-300 transition-colors cursor-pointer	
+button		button			cursor-pointer bg-transparent hover:bg-white/10 rounded-full transition-colors	
+button					relative p-2 text-white transition-colors cursor-pointer rounded-full hover:bg-white/10	
+div	dialog				fixed right-0 top-0 z-50 h-full w-full max-w-[420px] bg-white dark:bg-neutral-900 shadow-2xl transition-transform duration-300 ease-out flex flex-col translate-x-full	Shopping CartYour cart is emptyAdd items to your cart to see them here
+button					p-1 rounded-full cursor-pointer hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors	
+input	switch	checkbox			font-inherit text-[100%] leading-[1.15] m-0 p-0 overflow-visible box-border absolute top-0 w-full h-full opacity-[0.0001] z-[1] cursor-pointer disabled:cursor-default	
+svg	presentation				text-white hover:text-neutral-200 transition-colors	
+a				https://bagisto-headless-electronic.vercel.app/home-entertainment	block h-full w-full	
+a				https://bagisto-headless-electronic.vercel.app/home-appliances	block h-full w-full	
+a				https://bagisto-headless-electronic.vercel.app/appliances	block h-full w-full	
+button		button			absolute left-4 md:left-6 lg:left-8 top-1/2 -translate-y-1/2 z-20 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-600 flex items-center justify-center transition-all duration-300 hover:bg-neutral-50 dark:hover:bg-neutral-700 cursor-pointer	
+button		button			absolute right-4 md:right-6 lg:right-8 top-1/2 -translate-y-1/2 z-20 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-600 flex items-center justify-center transition-all duration-300 hover:bg-neutral-50 dark:hover:bg-neutral-700 cursor-pointer	
+button					flex h-10 w-10 items-center justify-center rounded-full border border-neutral-300 dark:border-neutral-600 bg-white dark:bg-neutral-800 text-neutral-700 dark:text-neutral-200 transition-all hover:bg-neutral-100 dark:hover:bg-neutral-700 disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer	
+button					flex h-10 w-10 items-center justify-center rounded-full border border-neutral-300 dark:border-neutral-600 bg-white dark:bg-neutral-800 text-neutral-700 dark:text-neutral-200 transition-all hover:bg-neutral-100 dark:hover:bg-neutral-700 disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer	
+a				https://bagisto-headless-electronic.vercel.app/phone	group shrink-0 w-[240px] sm:w-[260px] md:w-[280px] lg:w-[300px] xl:w-[320px] snap-start	Phone
+a				https://bagisto-headless-electronic.vercel.app/smartphones	group shrink-0 w-[240px] sm:w-[260px] md:w-[280px] lg:w-[300px] xl:w-[320px] snap-start	Smartphones
+a				https://bagisto-headless-electronic.vercel.app/headphones	group shrink-0 w-[240px] sm:w-[260px] md:w-[280px] lg:w-[300px] xl:w-[320px] snap-start	Headphones
+a				https://bagisto-headless-electronic.vercel.app/entertainment	group shrink-0 w-[240px] sm:w-[260px] md:w-[280px] lg:w-[300px] xl:w-[320px] snap-start	Entertainment
+a				https://bagisto-headless-electronic.vercel.app/appliances	group shrink-0 w-[240px] sm:w-[260px] md:w-[280px] lg:w-[300px] xl:w-[320px] snap-start	Appliances
+button					md:hidden absolute right-1 top-1/2 -translate-y-1/2 z-10 flex h-10 w-10 items-center justify-center rounded-full border border-neutral-200 dark:border-neutral-600 bg-white dark:bg-neutral-800 shadow-md text-neutral-700 dark:text-neutral-200 transition-all hover:bg-neutral-100 dark:hover:bg-neutral-700 cursor-pointer sf-hidden	
+a				https://bagisto-headless-electronic.vercel.app/product/xcvvxv	relative block h-full w-full	xcvvxv$25,458.00
+a				https://bagisto-headless-electronic.vercel.app/product/fhd-laptop-2026-edition-with-copilot-ai	relative block h-full w-full	FHD Laptop 2026 Edition with Copilot AI$10,000.00
+a				https://bagisto-headless-electronic.vercel.app/product/horizon-arc-49-oled-curved-gaming-monitor	relative block h-full w-full	Horizon Arc 49" OLED Curved Gaming Monitor$4,000.00
+a				https://bagisto-headless-electronic.vercel.app/product/xcvvxv	block w-full h-full	
+button					w-8 h-8 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-8 h-8 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+div	button				flex items-center justify-center cursor-pointer transition-colors rounded-full w-full h-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/xcvvxv		xcvvxv
+a				https://bagisto-headless-electronic.vercel.app/product/a-smartphone-and-earphone-bundle-offers-an-all-in-one-mobile-communication-and-audio-solution	block w-full h-full	
+button					w-8 h-8 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-8 h-8 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+a		button		https://bagisto-headless-electronic.vercel.app/product/a-smartphone-and-earphone-bundle-offers-an-all-in-one-mobile-communication-and-audio-solution	flex items-center justify-center cursor-pointer transition-colors w-full h-full rounded-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/a-smartphone-and-earphone-bundle-offers-an-all-in-one-mobile-communication-and-audio-solution		A smartphone and earphone bundle offers an all-in-one mobile communication and audio solution.
+a				https://bagisto-headless-electronic.vercel.app/product/smarthome-iot-relay-module-gerber-schematic-files	block w-full h-full	
+button					w-8 h-8 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-8 h-8 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+a		button		https://bagisto-headless-electronic.vercel.app/product/smarthome-iot-relay-module-gerber-schematic-files	flex items-center justify-center cursor-pointer transition-colors w-full h-full rounded-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/smarthome-iot-relay-module-gerber-schematic-files		SmartHome IoT Relay Module - Gerber & Schematic Files
+a				https://bagisto-headless-electronic.vercel.app/product/fhd-laptop-2026-edition-with-copilot-ai	block w-full h-full	
+button					w-8 h-8 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-8 h-8 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+a		button		https://bagisto-headless-electronic.vercel.app/product/fhd-laptop-2026-edition-with-copilot-ai	flex items-center justify-center cursor-pointer transition-colors w-full h-full rounded-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/fhd-laptop-2026-edition-with-copilot-ai		FHD Laptop 2026 Edition with Copilot AI
+a				https://bagisto-headless-electronic.vercel.app/product/xcvvxv	block w-full h-full	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+div	button				flex items-center justify-center cursor-pointer transition-colors rounded-full w-full h-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/xcvvxv		xcvvxv
+a				https://bagisto-headless-electronic.vercel.app/product/premium-smartphone-xenon	block w-full h-full	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+a		button		https://bagisto-headless-electronic.vercel.app/product/premium-smartphone-xenon	flex items-center justify-center cursor-pointer transition-colors w-full h-full rounded-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/premium-smartphone-xenon		Premium Smartphone Xenon
+a				https://bagisto-headless-electronic.vercel.app/product/elite-sound-earphones	block w-full h-full	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+div	button				flex items-center justify-center cursor-pointer transition-colors rounded-full w-full h-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/elite-sound-earphones		Elite Sound Earphones
+a				https://bagisto-headless-electronic.vercel.app/product/the-ultimate-256gb-smartphone	block w-full h-full	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+div	button				flex items-center justify-center cursor-pointer transition-colors rounded-full w-full h-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/the-ultimate-256gb-smartphone		The Ultimate 256GB Smartphone
+a				https://bagisto-headless-electronic.vercel.app/product/a-smartphone-and-earphone-bundle-offers-an-all-in-one-mobile-communication-and-audio-solution	block w-full h-full	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+a		button		https://bagisto-headless-electronic.vercel.app/product/a-smartphone-and-earphone-bundle-offers-an-all-in-one-mobile-communication-and-audio-solution	flex items-center justify-center cursor-pointer transition-colors w-full h-full rounded-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/a-smartphone-and-earphone-bundle-offers-an-all-in-one-mobile-communication-and-audio-solution		A smartphone and earphone bundle offers an all-in-one mobile communication and audio solution.
+a				https://bagisto-headless-electronic.vercel.app/product/smarthome-iot-relay-module-gerber-schematic-files	block w-full h-full	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+a		button		https://bagisto-headless-electronic.vercel.app/product/smarthome-iot-relay-module-gerber-schematic-files	flex items-center justify-center cursor-pointer transition-colors w-full h-full rounded-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/smarthome-iot-relay-module-gerber-schematic-files		SmartHome IoT Relay Module - Gerber & Schematic Files
+a				https://bagisto-headless-electronic.vercel.app/product/xcvvxv		
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+div	button				flex items-center justify-center cursor-pointer transition-colors rounded-full w-full h-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/xcvvxv		xcvvxv
+a				https://bagisto-headless-electronic.vercel.app/product/premium-smartphone-xenon		
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+a		button		https://bagisto-headless-electronic.vercel.app/product/premium-smartphone-xenon	flex items-center justify-center cursor-pointer transition-colors w-full h-full rounded-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/premium-smartphone-xenon		Premium Smartphone Xenon
+a				https://bagisto-headless-electronic.vercel.app/product/elite-sound-earphones		
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+div	button				flex items-center justify-center cursor-pointer transition-colors rounded-full w-full h-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/elite-sound-earphones		Elite Sound Earphones
+a				https://bagisto-headless-electronic.vercel.app/product/the-ultimate-256gb-smartphone		
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+div	button				flex items-center justify-center cursor-pointer transition-colors rounded-full w-full h-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/the-ultimate-256gb-smartphone		The Ultimate 256GB Smartphone
+a				https://bagisto-headless-electronic.vercel.app/product/a-smartphone-and-earphone-bundle-offers-an-all-in-one-mobile-communication-and-audio-solution		
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+a		button		https://bagisto-headless-electronic.vercel.app/product/a-smartphone-and-earphone-bundle-offers-an-all-in-one-mobile-communication-and-audio-solution	flex items-center justify-center cursor-pointer transition-colors w-full h-full rounded-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/a-smartphone-and-earphone-bundle-offers-an-all-in-one-mobile-communication-and-audio-solution		A smartphone and earphone bundle offers an all-in-one mobile communication and audio solution.
+a				https://bagisto-headless-electronic.vercel.app/product/smarthome-iot-relay-module-gerber-schematic-files		
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+a		button		https://bagisto-headless-electronic.vercel.app/product/smarthome-iot-relay-module-gerber-schematic-files	flex items-center justify-center cursor-pointer transition-colors w-full h-full rounded-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/smarthome-iot-relay-module-gerber-schematic-files		SmartHome IoT Relay Module - Gerber & Schematic Files
+a				https://bagisto-headless-electronic.vercel.app/product/fhd-laptop-2026-edition-with-copilot-ai		
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+a		button		https://bagisto-headless-electronic.vercel.app/product/fhd-laptop-2026-edition-with-copilot-ai	flex items-center justify-center cursor-pointer transition-colors w-full h-full rounded-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/fhd-laptop-2026-edition-with-copilot-ai		FHD Laptop 2026 Edition with Copilot AI
+a				https://bagisto-headless-electronic.vercel.app/product/the-smartphone-power-bundle		
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+a		button		https://bagisto-headless-electronic.vercel.app/product/the-smartphone-power-bundle	flex items-center justify-center cursor-pointer transition-colors w-full h-full rounded-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/the-smartphone-power-bundle		The Smartphone Power Bundle
+a				https://bagisto-headless-electronic.vercel.app/product/it-was-all-a-dream-world-tour		
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+a		button		https://bagisto-headless-electronic.vercel.app/product/it-was-all-a-dream-world-tour	flex items-center justify-center cursor-pointer transition-colors w-full h-full rounded-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/it-was-all-a-dream-world-tour		It Was All A Dream World Tour
+a				https://bagisto-headless-electronic.vercel.app/product/titanflex-gaming-chair		
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+a		button		https://bagisto-headless-electronic.vercel.app/product/titanflex-gaming-chair	flex items-center justify-center cursor-pointer transition-colors w-full h-full rounded-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/titanflex-gaming-chair		TitanFlex , Gaming Chair
+a				https://bagisto-headless-electronic.vercel.app/	flex items-center gap-2 cursor-pointer w-fit	LogoipsumGo to homepage
+a				https://www.instagram.com/bagisto_tips/	cursor-pointer w-9 h-9 flex items-center justify-center rounded-full bg-neutral-100 dark:bg-neutral-800 text-neutral-500 hover:text-white hover:bg-neutral-300 dark:hover:bg-neutral-700 dark:hover:text-neutral-900 transition-all duration-200	
+a				https://www.facebook.com/BagistoShop/	cursor-pointer w-9 h-9 flex items-center justify-center rounded-full bg-neutral-100 dark:bg-neutral-800 text-neutral-500 hover:text-white hover:bg-neutral-300 dark:hover:bg-neutral-700 dark:hover:text-neutral-900 transition-all duration-200	
+a				https://x.com/BagistoShop	cursor-pointer w-9 h-9 flex items-center justify-center rounded-full bg-neutral-100 dark:bg-neutral-800 text-neutral-500 hover:text-white hover:bg-neutral-300 dark:hover:bg-neutral-700 dark:hover:text-neutral-900 transition-all duration-200	
+a				https://bagisto-headless-electronic.vercel.app/privacy-policy	block px-0 py-1 md:p-2 text-nowrap text-sm underline-offset-4 text-selected-black dark:text-neutral-300 hover:text-black hover:underline md:inline-block dark:hover:text-neutral-300	Privacy policy
+a				https://bagisto-headless-electronic.vercel.app/whats-new	block px-0 py-1 md:p-2 text-nowrap text-sm underline-offset-4 text-selected-black dark:text-neutral-300 hover:text-black hover:underline md:inline-block dark:hover:text-neutral-300	What's New
+a				https://bagisto-headless-electronic.vercel.app/shipping-policy	block px-0 py-1 md:p-2 text-nowrap text-sm underline-offset-4 text-selected-black dark:text-neutral-300 hover:text-black hover:underline md:inline-block dark:hover:text-neutral-300	Shipping
+a				https://bagisto-headless-electronic.vercel.app/terms-of-use	block px-0 py-1 md:p-2 text-nowrap text-sm underline-offset-4 text-selected-black dark:text-neutral-300 hover:text-black hover:underline md:inline-block dark:hover:text-neutral-300	Terms of use
+a				https://bagisto-headless-electronic.vercel.app/refund-policy	block px-0 py-1 md:p-2 text-nowrap text-sm underline-offset-4 text-selected-black dark:text-neutral-300 hover:text-black hover:underline md:inline-block dark:hover:text-neutral-300	Refund Policy
+a				https://bagisto-headless-electronic.vercel.app/return-policy	block px-0 py-1 md:p-2 text-nowrap text-sm underline-offset-4 text-selected-black dark:text-neutral-300 hover:text-black hover:underline md:inline-block dark:hover:text-neutral-300	Return Policay
+a				https://bagisto-headless-electronic.vercel.app/payment-policy	block px-0 py-1 md:p-2 text-nowrap text-sm underline-offset-4 text-selected-black dark:text-neutral-300 hover:text-black hover:underline md:inline-block dark:hover:text-neutral-300	Payment Policy
+a				https://bagisto-headless-electronic.vercel.app/cutomer-service	block px-0 py-1 md:p-2 text-nowrap text-sm underline-offset-4 text-selected-black dark:text-neutral-300 hover:text-black hover:underline md:inline-block dark:hover:text-neutral-300	Customer Service
+a				https://bagisto-headless-electronic.vercel.app/terms-conditions	block px-0 py-1 md:p-2 text-nowrap text-sm underline-offset-4 text-selected-black dark:text-neutral-300 hover:text-black hover:underline md:inline-block dark:hover:text-neutral-300	terms & Conditions
+a				https://bagisto-headless-electronic.vercel.app/about-us	block px-0 py-1 md:p-2 text-nowrap text-sm underline-offset-4 text-selected-black dark:text-neutral-300 hover:text-black hover:underline md:inline-block dark:hover:text-neutral-300	About Us
+form					mt-8 lg:mt-0 w-full relative	Stay UpdatedGet exclusive offers, new arrivals, and more.Subscribe
+input		email			flex-1 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-neutral-300 dark:focus:ring-neutral-600 bg-white dark:bg-neutral-800 text-neutral-900 dark:text-white border transition-all duration-200 placeholder:text-neutral-400 dark:placeholder:text-neutral-500 border-neutral-200 dark:border-neutral-700	
+button		submit			relative flex w-full text-base md:text-lg cursor-pointer font-archivo font-semibold items-center justify-center rounded-xl bg-neutral-900 hover:bg-neutral-800 dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100 px-4 md:px-6 py-3 md:py-3 tracking-wide text-white transition-all duration-200 lg:w-fit px-6 py-2.5 text-sm hover:opacity-90	Subscribe
+div	alert		__next-route-announcer__			

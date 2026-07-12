@@ -1,0 +1,14 @@
+OPEN ACCOUNT DRAWER CAPTURE
+===========================
+
+This source was saved while the logged-in Account drawer was visibly open.
+It contains the account summary, My Comparison, Wishlist, Addresses, Go to Account, and Log Out controls.
+
+The lossless original is stored as:
+  captures/home/index-account-menu-open/index-account-menu-open.singlefile.html.gz.b64
+
+Decode and regenerate the full capture, analysis, clean page, and preview with:
+  node tools/process-open-account-capture.mjs
+
+A lightweight drawer-only browser reference is available at:
+  pages/home/account-drawer-reference.html
