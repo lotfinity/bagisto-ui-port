@@ -1,0 +1,29 @@
+SMARTPHONES HTML ↔ CSS ANALYSIS
+================================
+
+Title: Smartphones
+HTML size: 3.14 MB
+Elements: 906
+Images: 12
+Links: 54
+Buttons: 62
+Forms: 1
+Style tags: 2
+Script tags: 83
+
+HTML unique classes: 415
+Compiled CSS classes: 2970
+Inline CSS classes: 2970
+HTML classes found in compiled CSS: 411
+HTML classes missing from compiled CSS: 4
+HTML classes missing from all CSS: 4
+Compiled CSS unique coverage: 99.04%
+Compiled CSS weighted coverage: 99.52%
+
+Top classes missing from compiled CSS:
+  17 × fill-ptimary
+  1 × dsv-2025.04.19-7e29
+  1 × font-inherit
+  1 × input
+
+Output directory: /home/lofa/Downloads/nextjs-electronic-theme/smartphones-analysis

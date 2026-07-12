@@ -1,0 +1,36 @@
+{
+  "page": {
+    "title": "Smartphones",
+    "htmlBytes": 3297684,
+    "elements": 906,
+    "bodyElements": 847,
+    "hasMain": true,
+    "styleTags": 2,
+    "scriptTags": 83,
+    "stylesheetLinks": 0,
+    "images": 12,
+    "links": 54,
+    "buttons": 62,
+    "forms": 1,
+    "inputs": 20
+  },
+  "classes": {
+    "totalClassUses": 4138,
+    "htmlUnique": 415,
+    "compiledCssUnique": 2970,
+    "inlineCssUnique": 2970,
+    "htmlFoundInCompiled": 411,
+    "htmlMissingFromCompiled": 4,
+    "htmlFoundInInlineCss": 411,
+    "htmlMissingFromAllCss": 4,
+    "inlineOnly": 0,
+    "compiledUnusedOnPage": 2559,
+    "uniqueCompiledCoveragePercent": 99.04,
+    "weightedCompiledCoveragePercent": 99.52
+  },
+  "inlineCss": {
+    "bytes": 411435,
+    "rules": 3204,
+    "parseErrors": []
+  }
+}

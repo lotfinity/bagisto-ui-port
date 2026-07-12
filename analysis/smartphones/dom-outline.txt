@@ -1,0 +1,655 @@
+div
+main.bg-white.dark:bg-neutral-950
+  div
+    div.fixed.left-1/2.z-[999].w-[80%].-translate-x-1/2.sm:max-w-md.top-4.bottom-auto.md:bottom-4.md:top-auto
+    main.bg-white.dark:bg-neutral-950
+      header.fixed.top-0.left-0.right-0.z-[60]
+        div.w-full.px-4.md:px-6.lg:px-8.pt-2.md:pt-3
+          nav.relative.mx-auto.rounded-xl.bg-neutral-900.dark:bg-neutral-900.px-4.md:px-6.lg:px-8.py-2.5.md:py-3 [+1]
+            div.flex.w-full.items-center.justify-between.max-w-screen-2xl.mx-auto
+              div.flex.items-center.gap-3
+                a.flex.h-8.w-auto.items-center.md:h-9
+                  div.flex.items-center.gap-x-2
+                    div.!min-h-9.!min-w-9.flex.items-center.justify-center.rounded-lg.bg-emerald-500
+                      svg
+                        rect.fill-white
+                        rect.fill-white
+                    p.text-sm.font-semibold.text-neutral-300
+              div.fixed.inset-x-0.bottom-0.z-[60].lg:hidden
+                nav.px-3.h-16.border-t.border-neutral-200.bg-white.dark:border-neutral-800.dark:bg-black
+                  div.flex.h-full.items-center.justify-between
+                    a.flex.flex-col.items-center.gap-1.text-xs.font-semibold.py-2.rounded-lg.transition-colors.cursor-pointer
+                      div.flex.items-center.justify-center.rounded-full.transition-all.duration-300.px-6.py-1.bg-selected-color.dark:bg-selected-bg-bottom-dark [+1]
+                        svg.fill-transparent.stroke-current.dark:fill-transparent
+                      span
+                    button.flex.flex-col.items-center.gap-1.text-xs.font-semibold.py-2.rounded-lg.transition-colors.cursor-pointer — Categories
+                      div.flex.items-center.justify-center.rounded-full.transition-all.duration-300.px-6.py-1.bg-transparent.text-neutral-900 [+1]
+                        svg.fill-transparent.stroke-current.dark:fill-transparent
+                      span
+                    button.flex.flex-col.items-center.gap-1.text-xs.font-semibold.py-2.rounded-lg.transition-colors.cursor-pointer [+1] — Cart
+                      div.flex.items-center.justify-center.rounded-full.transition-all.duration-300.px-6.py-1.bg-transparent.text-neutral-900 [+1]
+                        div.relative.flex.items-center.justify-center.rounded-md.border-0.lg:border.border-solid.border-neutral-200.dark:border-neutral-700 [+2]
+                          svg.h-5.w-5
+                      span
+                    button.flex.flex-col.items-center.gap-1.text-xs.font-semibold.py-2.rounded-lg.transition-colors.cursor-pointer [+5] — Account
+                      div.flex.items-center.justify-center.rounded-full.transition-all.duration-300.px-6.py-1.bg-transparent.text-neutral-900 [+1]
+                        div.relative.flex.items-center.justify-center.rounded-md.lg:h-11.lg:w-11.text-white
+                          svg.h-5.w-5.text-black.dark:text-white
+                      span
+              ul.hidden.gap-0.5.text-sm.md:flex.items-center
+                li.relative
+                  a.font-medium.text-neutral-300.hover:text-white.px-3.lg:px-4.py-2.rounded-full.transition-colors.duration-200.hover:bg-white/10 [+3]
+                li.relative
+                  a.font-medium.text-neutral-300.hover:text-white.px-3.lg:px-4.py-2.rounded-full.transition-colors.duration-200.hover:bg-white/10 [+3]
+                li.relative
+                  a.font-medium.text-neutral-300.hover:text-white.px-3.lg:px-4.py-2.rounded-full.transition-colors.duration-200.hover:bg-white/10 [+3]
+                li.relative
+                  a.font-medium.text-neutral-300.hover:text-white.px-3.lg:px-4.py-2.rounded-full.transition-colors.duration-200.hover:bg-white/10 [+3]
+                li.relative
+                  a.font-medium.text-neutral-300.hover:text-white.px-3.lg:px-4.py-2.rounded-full.transition-colors.duration-200.hover:bg-white/10 [+3]
+              div.flex.items-center.gap-2.md:gap-3
+                div.flex
+                  button.p-2.text-white.transition-colors.cursor-pointer.rounded-full.hover:bg-white/10
+                    svg.w-5.h-5
+                  div.fixed.inset-0.z-40.bg-black/40.backdrop-blur-sm.transition-opacity.duration-300.ease-out.cursor-pointer.opacity-0 [+1]
+                  div.fixed.right-0.top-0.z-50.h-full.w-full.max-w-[420px].bg-white.dark:bg-neutral-900.shadow-2xl [+4]
+                    div.flex.items-center.justify-between.px-6.py-5.border-b.border-neutral-100.dark:border-neutral-800
+                      h2.text-lg.font-bold.text-neutral-900.dark:text-white — Search
+                      button.p-1.rounded-full.hover:bg-neutral-100.dark:hover:bg-neutral-800.transition-colors.cursor-pointer
+                        svg.w-6.h-6.text-neutral-500
+                    div.px-6.py-4
+                      div.relative
+                        input.w-full.px-4.py-3.pr-12.text-sm.bg-white.dark:bg-neutral-800.border.border-neutral-200.dark:border-neutral-700 [+9]
+                        button.absolute.right-2.top-1/2.-translate-y-1/2.p-2.text-neutral-400.hover:text-neutral-600.dark:hover:text-neutral-300.transition-colors.cursor-pointer
+                          svg.w-5.h-5
+                    div.border-t.border-neutral-100.dark:border-neutral-800
+                    div.overflow-y-auto.h-[calc(100vh-180px)].py-4.px-6
+                      div.py-12.text-center
+                        svg.w-12.h-12.mx-auto.text-neutral-300.dark:text-neutral-600.mb-3
+                        p.text-neutral-500.dark:text-neutral-400
+                div.hidden.lg:flex
+                  button.cursor-pointer.bg-transparent.hover:bg-white/10.rounded-full.transition-colors
+                    div.relative.flex.items-center.justify-center.rounded-md.lg:h-11.lg:w-11.text-white
+                      svg.h-5.w-5
+                div.hidden.lg:flex
+                  button.relative.p-2.text-white.transition-colors.cursor-pointer.rounded-full.hover:bg-white/10
+                    svg.w-5.h-5
+                  div.fixed.inset-0.z-50.bg-black/40.backdrop-blur-sm.transition-opacity.duration-300.ease-out.cursor-pointer.opacity-0 [+1]
+                  div.fixed.right-0.top-0.z-50.h-full.w-full.max-w-[420px].bg-white.dark:bg-neutral-900.shadow-2xl [+6]
+                    div.flex.items-center.justify-between.px-6.py-6
+                      h2.text-2xl.font-semibold.text-neutral-900.dark:text-white — Shopping Cart
+                      button.p-1.rounded-full.cursor-pointer.hover:bg-neutral-100.dark:hover:bg-neutral-800.transition-colors
+                        svg.w-6.h-6.text-neutral-900.dark:text-white
+                    div.mx-6.border-b.border-neutral-100.dark:border-neutral-800
+                    div.flex-1.overflow-y-auto.px-6
+                      div.flex.flex-col.items-center.justify-center.h-64.text-center
+                        svg.w-16.h-16.text-neutral-300.dark:text-neutral-600.mb-4
+                        p.text-xl.font-bold.text-neutral-900.dark:text-white.mb-2
+                        p.text-neutral-500.dark:text-neutral-400
+                div.flex
+                  label.group.relative.max-w-fit.touch-none.tap-highlight-transparent.select-none.flex.size-9.lg:size-10.cursor-pointer [+12]
+                    div
+                      input.font-inherit.text-[100%].leading-[1.15].m-0.p-0.overflow-visible.box-border.absolute.top-0.w-full [+5]
+                    div.relative.shrink-0.overflow-hidden.rounded-full.outline-solid.outline-transparent.group-data-[focus-visible=true]:z-10.group-data-[focus-visible=true]:ring-2.group-data-[focus-visible=true]:ring-focus.group-data-[focus-visible=true]:ring-offset-2 [+15]
+                      svg.text-white.hover:text-neutral-200.transition-colors
+      div.mx-auto.min-h-[calc(100vh-580px)].w-full.bg-white.dark:bg-neutral-950
+        div.block.w-full.justify-center.md:hidden.px-4.mt-2.z-10
+          div.max-w-[550px].relative.w-full.mx-auto.xl:min-w-[516px].outline-none.hover:outline-none
+            input.input.w-full.rounded-xl.border.border-neutral-700.bg-neutral-800.py-2.pl-4.pr-10.text-sm [+8]
+            div.absolute.bottom-0.right-1.top-0.flex.w-9.items-center.justify-center.cursor-pointer
+              svg.size-5.stroke-neutral-400.md:stroke-neutral-400
+        div.max-w-screen-2xl.mx-auto.px-4.md:px-6.lg:px-8.py-3.mt-5
+          nav.flex.items-center.gap-2.text-sm.text-neutral-500.dark:text-neutral-400
+            a.hover:text-neutral-900.dark:hover:text-white.transition-colors
+            svg.w-4.h-4
+            span.text-neutral-900.dark:text-white.font-medium
+        div.max-w-screen-2xl.mx-auto.px-4.md:px-6.lg:px-8.mb-4
+          div.relative.w-full.h-48.md:h-64.lg:h-80.rounded-2xl.overflow-hidden
+            div.absolute.inset-0.bg-neutral-200.dark:bg-neutral-800
+              img.object-cover
+            div.absolute.inset-0.bg-gradient-to-t.from-black/60.to-transparent
+          div.mt-4
+            div.text-neutral-900.dark:text-white
+              p
+                strong
+        div.max-w-screen-2xl.mx-auto.px-4.md:px-6.lg:px-8.py-6
+          div.flex.flex-col.md:flex-row.md:items-center.md:justify-between.gap-4
+            div.flex.items-center.gap-4
+              div
+                h2.text-2xl.md:text-3xl.font-bold.text-neutral-900.dark:text-white — Smartphones
+                p.text-sm.text-neutral-500.dark:text-neutral-400.mt-1
+            div.flex.items-center.gap-3
+              button.flex.items-center.gap-2.px-4.py-2.5.rounded-full.border.transition-all.cursor-pointer.duration-200 [+8] — Filters
+                svg.w-5.h-5
+                span.text-sm.font-medium
+              div.relative
+                button.flex.items-center.gap-2.px-3.sm:px-4.py-2.sm:py-2.5.rounded-full.border.transition-all [+10] — From A-Z
+                  svg.w-4.h-4.sm:w-5.sm:h-5
+                  span.text-xs.sm:text-sm.font-medium.hidden.sm:inline
+                  svg.w-4.h-4.transition-transform.duration-200
+                div.absolute.right-0.mt-2.w-48.sm:w-56.bg-white.dark:bg-neutral-800.rounded-2xl.shadow-xl.border [+10]
+                  div.py-2
+                    p.px-3.sm:px-4.py-2.text-xs.font-semibold.text-neutral-400.uppercase.tracking-wider
+                    button.w-full.flex.items-center.justify-between.px-3.sm:px-4.py-2.5.sm:py-3.text-xs.sm:text-sm [+7] — From A-Z
+                      span
+                      svg.w-3.5.h-3.5.sm:w-4.sm:h-4.text-green-500
+                    button.w-full.flex.items-center.justify-between.px-3.sm:px-4.py-2.5.sm:py-3.text-xs.sm:text-sm [+6] — From Z-A
+                      span
+                    button.w-full.flex.items-center.justify-between.px-3.sm:px-4.py-2.5.sm:py-3.text-xs.sm:text-sm [+6] — Newest First
+                      span
+                    button.w-full.flex.items-center.justify-between.px-3.sm:px-4.py-2.5.sm:py-3.text-xs.sm:text-sm [+6] — Oldest First
+                      span
+                    button.w-full.flex.items-center.justify-between.px-3.sm:px-4.py-2.5.sm:py-3.text-xs.sm:text-sm [+6] — Cheapest First
+                      span
+                    button.w-full.flex.items-center.justify-between.px-3.sm:px-4.py-2.5.sm:py-3.text-xs.sm:text-sm [+6] — Expensive First
+                      span
+        div.max-w-screen-2xl.mx-auto.px-4.md:px-6.lg:px-8.pb-12
+          ul.grid.grid-flow-row.gap-4.grid.grid-cols-2.md:grid-cols-3.lg:grid-cols-4.xl:grid-cols-5.gap-4.md:gap-6
+            li.transition-opacity.animate-fadeIn.flex.flex-col
+              div.group.relative.overflow-hidden.rounded-2xl.bg-[#F7F7F8].dark:bg-neutral-900.transition-all.duration-300.hover:shadow-lg.hover:scale-[1.02] [+4]
+                a
+                  div.aspect-square.overflow-hidden.flex.items-center.justify-center.bg-transparent
+                    div.relative.overflow-hidden.w-full.h-full.object-contain.transition.duration-500.ease-in-out.group-hover:scale-105
+                      img.transition-opacity.duration-300.object-cover.w-full.h-full.opacity-100
+                div.absolute.left-3.top-3.flex.flex-col.gap-2.transition-all.duration-300.opacity-0
+                  button.w-9.h-9.rounded-full.shadow-md.flex.items-center.justify-center.transition-colors.cursor-pointer.bg-white [+3]
+                    svg.w-4.h-4.text-neutral-600.dark:text-neutral-300
+                  button.w-9.h-9.rounded-full.shadow-md.flex.items-center.justify-center.transition-colors.cursor-pointer.bg-white [+3]
+                    svg.w-4.h-4.text-neutral-600.dark:text-neutral-300
+                div.absolute.bottom-3.right-3.transition-all.duration-300.w-10.h-10.opacity-0.translate-y-2
+                  a.flex.items-center.justify-center.cursor-pointer.transition-colors.w-full.h-full.rounded-full.bg-white.dark:bg-neutral-800 [+5]
+                    svg.w-5.h-5
+              div.pt-3.pb-2.px-1
+                a
+                  h3.text-sm.font-medium.text-neutral-800.dark:text-neutral-200.line-clamp-1.md:line-clamp-2.leading-snug.hover:text-neutral-900.dark:hover:text-white.transition-colors [+1] — A smartphone and earphone bundle offers an all-in-one mobile communication and audio solution.
+                div.flex.items-center.gap-1.mt-2
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  span.text-xs.text-neutral-400.dark:text-neutral-500.ml-1
+                div.flex.items-center.gap-2.mt-1.5
+                  span.text-xs.text-neutral-400.dark:text-neutral-500
+                  p.text-base.font-bold.text-neutral-900.dark:text-white
+                div.mt-3.md:hidden
+                  a.flex.w-full.cursor-pointer.items-center.justify-center.gap-2.px-4.py-2.5.rounded-xl.text-xs [+11]
+                    svg.fill-ptimary.h-5.w-5.dark:fill-transparent.size-4.stroke-current.stroke-[1.5]
+                    span
+            li.transition-opacity.animate-fadeIn.flex.flex-col
+              div.group.relative.overflow-hidden.rounded-2xl.bg-[#F7F7F8].dark:bg-neutral-900.transition-all.duration-300.hover:shadow-lg.hover:scale-[1.02] [+4]
+                a
+                  div.aspect-square.overflow-hidden.flex.items-center.justify-center.bg-transparent
+                    div.relative.overflow-hidden.w-full.h-full.object-contain.transition.duration-500.ease-in-out.group-hover:scale-105
+                      img.transition-opacity.duration-300.object-cover.w-full.h-full.opacity-100
+                div.absolute.left-3.top-3.flex.flex-col.gap-2.transition-all.duration-300.opacity-0
+                  button.w-9.h-9.rounded-full.shadow-md.flex.items-center.justify-center.transition-colors.cursor-pointer.bg-white [+3]
+                    svg.w-4.h-4.text-neutral-600.dark:text-neutral-300
+                  button.w-9.h-9.rounded-full.shadow-md.flex.items-center.justify-center.transition-colors.cursor-pointer.bg-white [+3]
+                    svg.w-4.h-4.text-neutral-600.dark:text-neutral-300
+                div.absolute.bottom-3.right-3.transition-all.duration-300.w-10.h-10.opacity-0.translate-y-2
+                  div.flex.items-center.justify-center.cursor-pointer.transition-colors.rounded-full.w-full.h-full.bg-white.dark:bg-neutral-800 [+5]
+                    svg.fill-ptimary.h-5.w-5.dark:fill-transparent.size-5.stroke-current.stroke-[1.5]
+              div.pt-3.pb-2.px-1
+                a
+                  h3.text-sm.font-medium.text-neutral-800.dark:text-neutral-200.line-clamp-1.md:line-clamp-2.leading-snug.hover:text-neutral-900.dark:hover:text-white.transition-colors [+1] — Apple iPhone Smartphone
+                div.flex.items-center.gap-1.mt-2
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  span.text-xs.text-neutral-400.dark:text-neutral-500.ml-1
+                div.flex.items-center.gap-2.mt-1.5
+                  p.text-base.font-bold.text-neutral-900.dark:text-white
+                  p.text-sm.text-neutral-400.dark:text-neutral-500.line-through
+                div.mt-3.md:hidden
+                  button.flex.w-full.cursor-pointer.items-center.justify-center.gap-2.px-4.py-2.5.rounded-xl.text-xs [+10] — Add to Cart
+                    svg.fill-ptimary.h-5.w-5.dark:fill-transparent.size-4.stroke-current.stroke-[1.5]
+                    span
+            li.transition-opacity.animate-fadeIn.flex.flex-col
+              div.group.relative.overflow-hidden.rounded-2xl.bg-[#F7F7F8].dark:bg-neutral-900.transition-all.duration-300.hover:shadow-lg.hover:scale-[1.02] [+4]
+                a
+                  div.aspect-square.overflow-hidden.flex.items-center.justify-center.bg-transparent
+                    div.relative.overflow-hidden.w-full.h-full.object-contain.transition.duration-500.ease-in-out.group-hover:scale-105
+                      img.transition-opacity.duration-300.object-cover.w-full.h-full.opacity-100
+                div.absolute.left-3.top-3.flex.flex-col.gap-2.transition-all.duration-300.opacity-0
+                  button.w-9.h-9.rounded-full.shadow-md.flex.items-center.justify-center.transition-colors.cursor-pointer.bg-white [+3]
+                    svg.w-4.h-4.text-neutral-600.dark:text-neutral-300
+                  button.w-9.h-9.rounded-full.shadow-md.flex.items-center.justify-center.transition-colors.cursor-pointer.bg-white [+3]
+                    svg.w-4.h-4.text-neutral-600.dark:text-neutral-300
+                div.absolute.bottom-3.right-3.transition-all.duration-300.w-10.h-10.opacity-0.translate-y-2
+                  div.flex.items-center.justify-center.cursor-pointer.transition-colors.rounded-full.w-full.h-full.bg-white.dark:bg-neutral-800 [+5]
+                    svg.fill-ptimary.h-5.w-5.dark:fill-transparent.size-5.stroke-current.stroke-[1.5]
+              div.pt-3.pb-2.px-1
+                a
+                  h3.text-sm.font-medium.text-neutral-800.dark:text-neutral-200.line-clamp-1.md:line-clamp-2.leading-snug.hover:text-neutral-900.dark:hover:text-white.transition-colors [+1] — blout Pixel 9a 5G
+                div.flex.items-center.gap-1.mt-2
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  span.text-xs.text-neutral-400.dark:text-neutral-500.ml-1
+                div.flex.items-center.gap-2.mt-1.5
+                  p.text-base.font-bold.text-neutral-900.dark:text-white
+                  p.text-sm.text-neutral-400.dark:text-neutral-500.line-through
+                div.mt-3.md:hidden
+                  button.flex.w-full.cursor-pointer.items-center.justify-center.gap-2.px-4.py-2.5.rounded-xl.text-xs [+10] — Add to Cart
+                    svg.fill-ptimary.h-5.w-5.dark:fill-transparent.size-4.stroke-current.stroke-[1.5]
+                    span
+            li.transition-opacity.animate-fadeIn.flex.flex-col
+              div.group.relative.overflow-hidden.rounded-2xl.bg-[#F7F7F8].dark:bg-neutral-900.transition-all.duration-300.hover:shadow-lg.hover:scale-[1.02] [+4]
+                a
+                  div.aspect-square.overflow-hidden.flex.items-center.justify-center.bg-transparent
+                    div.relative.overflow-hidden.w-full.h-full.object-contain.transition.duration-500.ease-in-out.group-hover:scale-105
+                      img.transition-opacity.duration-300.object-cover.w-full.h-full.opacity-100
+                div.absolute.left-3.top-3.flex.flex-col.gap-2.transition-all.duration-300.opacity-0
+                  button.w-9.h-9.rounded-full.shadow-md.flex.items-center.justify-center.transition-colors.cursor-pointer.bg-white [+3]
+                    svg.w-4.h-4.text-neutral-600.dark:text-neutral-300
+                  button.w-9.h-9.rounded-full.shadow-md.flex.items-center.justify-center.transition-colors.cursor-pointer.bg-white [+3]
+                    svg.w-4.h-4.text-neutral-600.dark:text-neutral-300
+                div.absolute.bottom-3.right-3.transition-all.duration-300.w-10.h-10.opacity-0.translate-y-2
+                  a.flex.items-center.justify-center.cursor-pointer.transition-colors.w-full.h-full.rounded-full.bg-white.dark:bg-neutral-800 [+5]
+                    svg.w-5.h-5
+              div.pt-3.pb-2.px-1
+                a
+                  h3.text-sm.font-medium.text-neutral-800.dark:text-neutral-200.line-clamp-1.md:line-clamp-2.leading-snug.hover:text-neutral-900.dark:hover:text-white.transition-colors [+1] — Edge 60 Fusion
+                div.flex.items-center.gap-1.mt-2
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  span.text-xs.text-neutral-400.dark:text-neutral-500.ml-1
+                div.flex.items-center.gap-2.mt-1.5
+                  p.text-base.font-bold.text-neutral-900.dark:text-white
+                div.mt-3.md:hidden
+                  a.flex.w-full.cursor-pointer.items-center.justify-center.gap-2.px-4.py-2.5.rounded-xl.text-xs [+11]
+                    svg.fill-ptimary.h-5.w-5.dark:fill-transparent.size-4.stroke-current.stroke-[1.5]
+                    span
+            li.transition-opacity.animate-fadeIn.flex.flex-col
+              div.group.relative.overflow-hidden.rounded-2xl.bg-[#F7F7F8].dark:bg-neutral-900.transition-all.duration-300.hover:shadow-lg.hover:scale-[1.02] [+4]
+                a
+                  div.aspect-square.overflow-hidden.flex.items-center.justify-center.bg-transparent
+                    div.relative.overflow-hidden.w-full.h-full.object-contain.transition.duration-500.ease-in-out.group-hover:scale-105
+                      img.transition-opacity.duration-300.object-cover.w-full.h-full.opacity-100
+                div.absolute.left-3.top-3.flex.flex-col.gap-2.transition-all.duration-300.opacity-0
+                  button.w-9.h-9.rounded-full.shadow-md.flex.items-center.justify-center.transition-colors.cursor-pointer.bg-white [+3]
+                    svg.w-4.h-4.text-neutral-600.dark:text-neutral-300
+                  button.w-9.h-9.rounded-full.shadow-md.flex.items-center.justify-center.transition-colors.cursor-pointer.bg-white [+3]
+                    svg.w-4.h-4.text-neutral-600.dark:text-neutral-300
+                div.absolute.bottom-3.right-3.transition-all.duration-300.w-10.h-10.opacity-0.translate-y-2
+                  div.flex.items-center.justify-center.cursor-pointer.transition-colors.rounded-full.w-full.h-full.bg-white.dark:bg-neutral-800 [+5]
+                    svg.fill-ptimary.h-5.w-5.dark:fill-transparent.size-5.stroke-current.stroke-[1.5]
+              div.pt-3.pb-2.px-1
+                a
+                  h3.text-sm.font-medium.text-neutral-800.dark:text-neutral-200.line-clamp-1.md:line-clamp-2.leading-snug.hover:text-neutral-900.dark:hover:text-white.transition-colors [+1] — Galaxy S25 Ultra 5G
+                div.flex.items-center.gap-1.mt-2
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  span.text-xs.text-neutral-400.dark:text-neutral-500.ml-1
+                div.flex.items-center.gap-2.mt-1.5
+                  p.text-base.font-bold.text-neutral-900.dark:text-white
+                  p.text-sm.text-neutral-400.dark:text-neutral-500.line-through
+                div.mt-3.md:hidden
+                  button.flex.w-full.cursor-pointer.items-center.justify-center.gap-2.px-4.py-2.5.rounded-xl.text-xs [+10] — Add to Cart
+                    svg.fill-ptimary.h-5.w-5.dark:fill-transparent.size-4.stroke-current.stroke-[1.5]
+                    span
+            li.transition-opacity.animate-fadeIn.flex.flex-col
+              div.group.relative.overflow-hidden.rounded-2xl.bg-[#F7F7F8].dark:bg-neutral-900.transition-all.duration-300.hover:shadow-lg.hover:scale-[1.02] [+4]
+                a
+                  div.aspect-square.overflow-hidden.flex.items-center.justify-center.bg-transparent
+                    div.relative.overflow-hidden.w-full.h-full.object-contain.transition.duration-500.ease-in-out.group-hover:scale-105
+                      img.transition-opacity.duration-300.object-cover.w-full.h-full.opacity-100
+                div.absolute.left-3.top-3.flex.flex-col.gap-2.transition-all.duration-300.opacity-0
+                  button.w-9.h-9.rounded-full.shadow-md.flex.items-center.justify-center.transition-colors.cursor-pointer.bg-white [+3]
+                    svg.w-4.h-4.text-neutral-600.dark:text-neutral-300
+                  button.w-9.h-9.rounded-full.shadow-md.flex.items-center.justify-center.transition-colors.cursor-pointer.bg-white [+3]
+                    svg.w-4.h-4.text-neutral-600.dark:text-neutral-300
+                div.absolute.bottom-3.right-3.transition-all.duration-300.w-10.h-10.opacity-0.translate-y-2
+                  div.flex.items-center.justify-center.cursor-pointer.transition-colors.rounded-full.w-full.h-full.bg-white.dark:bg-neutral-800 [+5]
+                    svg.fill-ptimary.h-5.w-5.dark:fill-transparent.size-5.stroke-current.stroke-[1.5]
+              div.pt-3.pb-2.px-1
+                a
+                  h3.text-sm.font-medium.text-neutral-800.dark:text-neutral-200.line-clamp-1.md:line-clamp-2.leading-snug.hover:text-neutral-900.dark:hover:text-white.transition-colors [+1] — One OG Plus 15 5G
+                div.flex.items-center.gap-1.mt-2
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  span.text-xs.text-neutral-400.dark:text-neutral-500.ml-1
+                div.flex.items-center.gap-2.mt-1.5
+                  p.text-base.font-bold.text-neutral-900.dark:text-white
+                  p.text-sm.text-neutral-400.dark:text-neutral-500.line-through
+                div.mt-3.md:hidden
+                  button.flex.w-full.cursor-pointer.items-center.justify-center.gap-2.px-4.py-2.5.rounded-xl.text-xs [+10] — Add to Cart
+                    svg.fill-ptimary.h-5.w-5.dark:fill-transparent.size-4.stroke-current.stroke-[1.5]
+                    span
+            li.transition-opacity.animate-fadeIn.flex.flex-col
+              div.group.relative.overflow-hidden.rounded-2xl.bg-[#F7F7F8].dark:bg-neutral-900.transition-all.duration-300.hover:shadow-lg.hover:scale-[1.02] [+4]
+                a
+                  div.aspect-square.overflow-hidden.flex.items-center.justify-center.bg-transparent
+                    div.relative.overflow-hidden.w-full.h-full.object-contain.transition.duration-500.ease-in-out.group-hover:scale-105
+                      img.transition-opacity.duration-300.object-cover.w-full.h-full.opacity-100
+                div.absolute.left-3.top-3.flex.flex-col.gap-2.transition-all.duration-300.opacity-0
+                  button.w-9.h-9.rounded-full.shadow-md.flex.items-center.justify-center.transition-colors.cursor-pointer.bg-white [+3]
+                    svg.w-4.h-4.text-neutral-600.dark:text-neutral-300
+                  button.w-9.h-9.rounded-full.shadow-md.flex.items-center.justify-center.transition-colors.cursor-pointer.bg-white [+3]
+                    svg.w-4.h-4.text-neutral-600.dark:text-neutral-300
+                div.absolute.bottom-3.right-3.transition-all.duration-300.w-10.h-10.opacity-0.translate-y-2
+                  a.flex.items-center.justify-center.cursor-pointer.transition-colors.w-full.h-full.rounded-full.bg-white.dark:bg-neutral-800 [+5]
+                    svg.w-5.h-5
+              div.pt-3.pb-2.px-1
+                a
+                  h3.text-sm.font-medium.text-neutral-800.dark:text-neutral-200.line-clamp-1.md:line-clamp-2.leading-snug.hover:text-neutral-900.dark:hover:text-white.transition-colors [+1] — Premium Smartphone Xenon
+                div.flex.items-center.gap-1.mt-2
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  span.text-xs.text-neutral-400.dark:text-neutral-500.ml-1
+                div.flex.items-center.gap-2.mt-1.5
+                  p.text-base.font-bold.text-neutral-900.dark:text-white
+                div.mt-3.md:hidden
+                  a.flex.w-full.cursor-pointer.items-center.justify-center.gap-2.px-4.py-2.5.rounded-xl.text-xs [+11]
+                    svg.fill-ptimary.h-5.w-5.dark:fill-transparent.size-4.stroke-current.stroke-[1.5]
+                    span
+            li.transition-opacity.animate-fadeIn.flex.flex-col
+              div.group.relative.overflow-hidden.rounded-2xl.bg-[#F7F7F8].dark:bg-neutral-900.transition-all.duration-300.hover:shadow-lg.hover:scale-[1.02] [+4]
+                a
+                  div.aspect-square.overflow-hidden.flex.items-center.justify-center.bg-transparent
+                    div.relative.overflow-hidden.w-full.h-full.object-contain.transition.duration-500.ease-in-out.group-hover:scale-105
+                      img.transition-opacity.duration-300.object-cover.w-full.h-full.opacity-100
+                div.absolute.left-3.top-3.flex.flex-col.gap-2.transition-all.duration-300.opacity-0
+                  button.w-9.h-9.rounded-full.shadow-md.flex.items-center.justify-center.transition-colors.cursor-pointer.bg-white [+3]
+                    svg.w-4.h-4.text-neutral-600.dark:text-neutral-300
+                  button.w-9.h-9.rounded-full.shadow-md.flex.items-center.justify-center.transition-colors.cursor-pointer.bg-white [+3]
+                    svg.w-4.h-4.text-neutral-600.dark:text-neutral-300
+                div.absolute.bottom-3.right-3.transition-all.duration-300.w-10.h-10.opacity-0.translate-y-2
+                  div.flex.items-center.justify-center.cursor-pointer.transition-colors.rounded-full.w-full.h-full.bg-white.dark:bg-neutral-800 [+5]
+                    svg.fill-ptimary.h-5.w-5.dark:fill-transparent.size-5.stroke-current.stroke-[1.5]
+              div.pt-3.pb-2.px-1
+                a
+                  h3.text-sm.font-medium.text-neutral-800.dark:text-neutral-200.line-clamp-1.md:line-clamp-2.leading-snug.hover:text-neutral-900.dark:hover:text-white.transition-colors [+1] — Real sam 12 Pro+ 5G
+                div.flex.items-center.gap-1.mt-2
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  span.text-xs.text-neutral-400.dark:text-neutral-500.ml-1
+                div.flex.items-center.gap-2.mt-1.5
+                  p.text-base.font-bold.text-neutral-900.dark:text-white
+                  p.text-sm.text-neutral-400.dark:text-neutral-500.line-through
+                div.mt-3.md:hidden
+                  button.flex.w-full.cursor-pointer.items-center.justify-center.gap-2.px-4.py-2.5.rounded-xl.text-xs [+10] — Add to Cart
+                    svg.fill-ptimary.h-5.w-5.dark:fill-transparent.size-4.stroke-current.stroke-[1.5]
+                    span
+            li.transition-opacity.animate-fadeIn.flex.flex-col
+              div.group.relative.overflow-hidden.rounded-2xl.bg-[#F7F7F8].dark:bg-neutral-900.transition-all.duration-300.hover:shadow-lg.hover:scale-[1.02] [+4]
+                a
+                  div.aspect-square.overflow-hidden.flex.items-center.justify-center.bg-transparent
+                    div.relative.overflow-hidden.w-full.h-full.object-contain.transition.duration-500.ease-in-out.group-hover:scale-105
+                      img.transition-opacity.duration-300.object-cover.w-full.h-full.opacity-100
+                div.absolute.left-3.top-3.flex.flex-col.gap-2.transition-all.duration-300.opacity-0
+                  button.w-9.h-9.rounded-full.shadow-md.flex.items-center.justify-center.transition-colors.cursor-pointer.bg-white [+3]
+                    svg.w-4.h-4.text-neutral-600.dark:text-neutral-300
+                  button.w-9.h-9.rounded-full.shadow-md.flex.items-center.justify-center.transition-colors.cursor-pointer.bg-white [+3]
+                    svg.w-4.h-4.text-neutral-600.dark:text-neutral-300
+                div.absolute.bottom-3.right-3.transition-all.duration-300.w-10.h-10.opacity-0.translate-y-2
+                  a.flex.items-center.justify-center.cursor-pointer.transition-colors.w-full.h-full.rounded-full.bg-white.dark:bg-neutral-800 [+5]
+                    svg.w-5.h-5
+              div.pt-3.pb-2.px-1
+                a
+                  h3.text-sm.font-medium.text-neutral-800.dark:text-neutral-200.line-clamp-1.md:line-clamp-2.leading-snug.hover:text-neutral-900.dark:hover:text-white.transition-colors [+1] — SmartHome IoT Relay Module - Gerber & Schematic Files
+                div.flex.items-center.gap-1.mt-2
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  span.text-xs.text-neutral-400.dark:text-neutral-500.ml-1
+                div.flex.items-center.gap-2.mt-1.5
+                  p.text-base.font-bold.text-neutral-900.dark:text-white
+                div.mt-3.md:hidden
+                  a.flex.w-full.cursor-pointer.items-center.justify-center.gap-2.px-4.py-2.5.rounded-xl.text-xs [+11]
+                    svg.fill-ptimary.h-5.w-5.dark:fill-transparent.size-4.stroke-current.stroke-[1.5]
+                    span
+            li.transition-opacity.animate-fadeIn.flex.flex-col
+              div.group.relative.overflow-hidden.rounded-2xl.bg-[#F7F7F8].dark:bg-neutral-900.transition-all.duration-300.hover:shadow-lg.hover:scale-[1.02] [+4]
+                a
+                  div.aspect-square.overflow-hidden.flex.items-center.justify-center.bg-transparent
+                    div.relative.overflow-hidden.w-full.h-full.object-contain.transition.duration-500.ease-in-out.group-hover:scale-105
+                      img.transition-opacity.duration-300.object-cover.w-full.h-full.opacity-100
+                div.absolute.left-3.top-3.flex.flex-col.gap-2.transition-all.duration-300.opacity-0
+                  button.w-9.h-9.rounded-full.shadow-md.flex.items-center.justify-center.transition-colors.cursor-pointer.bg-white [+3]
+                    svg.w-4.h-4.text-neutral-600.dark:text-neutral-300
+                  button.w-9.h-9.rounded-full.shadow-md.flex.items-center.justify-center.transition-colors.cursor-pointer.bg-white [+3]
+                    svg.w-4.h-4.text-neutral-600.dark:text-neutral-300
+                div.absolute.bottom-3.right-3.transition-all.duration-300.w-10.h-10.opacity-0.translate-y-2
+                  a.flex.items-center.justify-center.cursor-pointer.transition-colors.w-full.h-full.rounded-full.bg-white.dark:bg-neutral-800 [+5]
+                    svg.w-5.h-5
+              div.pt-3.pb-2.px-1
+                a
+                  h3.text-sm.font-medium.text-neutral-800.dark:text-neutral-200.line-clamp-1.md:line-clamp-2.leading-snug.hover:text-neutral-900.dark:hover:text-white.transition-colors [+1] — The Smartphone Power Bundle
+                div.flex.items-center.gap-1.mt-2
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  span.text-xs.text-neutral-400.dark:text-neutral-500.ml-1
+                div.flex.items-center.gap-2.mt-1.5
+                  span.text-xs.text-neutral-400.dark:text-neutral-500
+                  p.text-base.font-bold.text-neutral-900.dark:text-white
+                div.mt-3.md:hidden
+                  a.flex.w-full.cursor-pointer.items-center.justify-center.gap-2.px-4.py-2.5.rounded-xl.text-xs [+11]
+                    svg.fill-ptimary.h-5.w-5.dark:fill-transparent.size-4.stroke-current.stroke-[1.5]
+                    span
+            li.transition-opacity.animate-fadeIn.flex.flex-col
+              div.group.relative.overflow-hidden.rounded-2xl.bg-[#F7F7F8].dark:bg-neutral-900.transition-all.duration-300.hover:shadow-lg.hover:scale-[1.02] [+4]
+                a
+                  div.aspect-square.overflow-hidden.flex.items-center.justify-center.bg-transparent
+                    div.relative.overflow-hidden.w-full.h-full.object-contain.transition.duration-500.ease-in-out.group-hover:scale-105
+                      img.transition-opacity.duration-300.object-cover.w-full.h-full.opacity-100
+                div.absolute.left-3.top-3.flex.flex-col.gap-2.transition-all.duration-300.opacity-0
+                  button.w-9.h-9.rounded-full.shadow-md.flex.items-center.justify-center.transition-colors.cursor-pointer.bg-white [+3]
+                    svg.w-4.h-4.text-neutral-600.dark:text-neutral-300
+                  button.w-9.h-9.rounded-full.shadow-md.flex.items-center.justify-center.transition-colors.cursor-pointer.bg-white [+3]
+                    svg.w-4.h-4.text-neutral-600.dark:text-neutral-300
+                div.absolute.bottom-3.right-3.transition-all.duration-300.w-10.h-10.opacity-0.translate-y-2
+                  div.flex.items-center.justify-center.cursor-pointer.transition-colors.rounded-full.w-full.h-full.bg-white.dark:bg-neutral-800 [+5]
+                    svg.fill-ptimary.h-5.w-5.dark:fill-transparent.size-5.stroke-current.stroke-[1.5]
+              div.pt-3.pb-2.px-1
+                a
+                  h3.text-sm.font-medium.text-neutral-800.dark:text-neutral-200.line-clamp-1.md:line-clamp-2.leading-snug.hover:text-neutral-900.dark:hover:text-white.transition-colors [+1] — The Ultimate 256GB Smartphone
+                div.flex.items-center.gap-1.mt-2
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  svg.w-3.5.h-3.5.text-neutral-200.dark:text-neutral-700
+                  span.text-xs.text-neutral-400.dark:text-neutral-500.ml-1
+                div.flex.items-center.gap-2.mt-1.5
+                  p.text-base.font-bold.text-neutral-900.dark:text-white
+                  p.text-sm.text-neutral-400.dark:text-neutral-500.line-through
+                div.mt-3.md:hidden
+                  button.flex.w-full.cursor-pointer.items-center.justify-center.gap-2.px-4.py-2.5.rounded-xl.text-xs [+10] — Add to Cart
+                    svg.fill-ptimary.h-5.w-5.dark:fill-transparent.size-4.stroke-current.stroke-[1.5]
+                    span
+        div.fixed.inset-0.bg-black/50.z-[65].transition-opacity.duration-300.ease-in-out.cursor-pointer.opacity-0.pointer-events-none
+        div.fixed.top-0.right-0.h-full.w-full.max-w-md.bg-white.dark:bg-neutral-900.z-[70].shadow-2xl [+7]
+          div.flex.items-center.justify-between.px-6.py-4.border-b.border-neutral-200.dark:border-neutral-700
+            h2.text-xl.font-semibold.text-neutral-900.dark:text-white — Filters
+            button.p-2.rounded-full.cursor-pointer.hover:bg-neutral-100.dark:hover:bg-neutral-800.transition-colors
+              svg.w-5.h-5.text-neutral-600.dark:text-neutral-300
+          div.flex-1.overflow-y-auto.px-6.py-6
+            div.mb-6.border-b.border-neutral-100.dark:border-neutral-800.pb-6.last:border-0
+              button.flex.items-center.justify-between.w-full.mb-3.cursor-pointer — COLOR
+                h3.text-sm.font-semibold.text-neutral-900.dark:text-white.uppercase.tracking-wide — COLOR
+                svg.w-4.h-4.text-neutral-500.transition-transform.duration-200.rotate-180
+              div.space-y-3
+                div.flex.flex-wrap.gap-2
+                  button.w-8.h-8.rounded-full.cursor-pointer.border-2.transition-all.hover:scale-110.border-neutral-200.dark:border-neutral-700
+                  button.w-8.h-8.rounded-full.cursor-pointer.border-2.transition-all.hover:scale-110.border-neutral-200.dark:border-neutral-700
+                  button.w-8.h-8.rounded-full.cursor-pointer.border-2.transition-all.hover:scale-110.border-neutral-200.dark:border-neutral-700
+                  button.w-8.h-8.rounded-full.cursor-pointer.border-2.transition-all.hover:scale-110.border-neutral-200.dark:border-neutral-700
+                  button.w-8.h-8.rounded-full.cursor-pointer.border-2.transition-all.hover:scale-110.border-neutral-200.dark:border-neutral-700
+                  button.w-8.h-8.rounded-full.cursor-pointer.border-2.transition-all.hover:scale-110.border-neutral-200.dark:border-neutral-700
+                  button.w-8.h-8.rounded-full.cursor-pointer.border-2.transition-all.hover:scale-110.border-neutral-200.dark:border-neutral-700
+                  button.w-8.h-8.rounded-full.cursor-pointer.border-2.transition-all.hover:scale-110.border-neutral-200.dark:border-neutral-700
+                  button.w-8.h-8.rounded-full.cursor-pointer.border-2.transition-all.hover:scale-110.border-neutral-200.dark:border-neutral-700
+                  button.w-8.h-8.rounded-full.cursor-pointer.border-2.transition-all.hover:scale-110.border-neutral-200.dark:border-neutral-700
+            div.mb-6.border-b.border-neutral-100.dark:border-neutral-800.pb-6.last:border-0
+              button.flex.items-center.justify-between.w-full.mb-3.cursor-pointer — SIZE
+                h3.text-sm.font-semibold.text-neutral-900.dark:text-white.uppercase.tracking-wide — SIZE
+                svg.w-4.h-4.text-neutral-500.transition-transform.duration-200.rotate-180
+              div.space-y-3
+                div.max-h-48.overflow-y-auto.space-y-2
+                  label.flex.items-center.gap-3.cursor-pointer.group — S
+                    input.w-4.h-4.cursor-pointer.rounded.border-neutral-300.text-neutral-900.focus:ring-neutral-900.dark:border-neutral-600.dark:focus:ring-neutral-500
+                    span.text-sm.text-neutral-600.dark:text-neutral-400.group-hover:text-neutral-900.dark:group-hover:text-white.transition-colors
+                  label.flex.items-center.gap-3.cursor-pointer.group — M
+                    input.w-4.h-4.cursor-pointer.rounded.border-neutral-300.text-neutral-900.focus:ring-neutral-900.dark:border-neutral-600.dark:focus:ring-neutral-500
+                    span.text-sm.text-neutral-600.dark:text-neutral-400.group-hover:text-neutral-900.dark:group-hover:text-white.transition-colors
+                  label.flex.items-center.gap-3.cursor-pointer.group — L
+                    input.w-4.h-4.cursor-pointer.rounded.border-neutral-300.text-neutral-900.focus:ring-neutral-900.dark:border-neutral-600.dark:focus:ring-neutral-500
+                    span.text-sm.text-neutral-600.dark:text-neutral-400.group-hover:text-neutral-900.dark:group-hover:text-white.transition-colors
+                  label.flex.items-center.gap-3.cursor-pointer.group — XL
+                    input.w-4.h-4.cursor-pointer.rounded.border-neutral-300.text-neutral-900.focus:ring-neutral-900.dark:border-neutral-600.dark:focus:ring-neutral-500
+                    span.text-sm.text-neutral-600.dark:text-neutral-400.group-hover:text-neutral-900.dark:group-hover:text-white.transition-colors
+            div.mb-6.border-b.border-neutral-100.dark:border-neutral-800.pb-6.last:border-0
+              button.flex.items-center.justify-between.w-full.mb-3.cursor-pointer — BRAND
+                h3.text-sm.font-semibold.text-neutral-900.dark:text-white.uppercase.tracking-wide — BRAND
+                svg.w-4.h-4.text-neutral-500.transition-transform.duration-200.rotate-180
+              div.space-y-3
+                div.mb-4
+                  input.w-full.px-3.py-2.text-sm.border.border-neutral-200.dark:border-neutral-700.rounded-lg.bg-white.dark:bg-neutral-800 [+6]
+                div.max-h-48.overflow-y-auto.space-y-2
+                  label.flex.items-center.gap-3.cursor-pointer.group — Zebronics
+                    input.w-4.h-4.cursor-pointer.rounded.border-neutral-300.text-neutral-900.focus:ring-neutral-900.dark:border-neutral-600.dark:focus:ring-neutral-500
+                    span.text-sm.text-neutral-600.dark:text-neutral-400.group-hover:text-neutral-900.dark:group-hover:text-white.transition-colors
+                  label.flex.items-center.gap-3.cursor-pointer.group — Urban Aura
+                    input.w-4.h-4.cursor-pointer.rounded.border-neutral-300.text-neutral-900.focus:ring-neutral-900.dark:border-neutral-600.dark:focus:ring-neutral-500
+                    span.text-sm.text-neutral-600.dark:text-neutral-400.group-hover:text-neutral-900.dark:group-hover:text-white.transition-colors
+                  label.flex.items-center.gap-3.cursor-pointer.group — Casa Royale
+                    input.w-4.h-4.cursor-pointer.rounded.border-neutral-300.text-neutral-900.focus:ring-neutral-900.dark:border-neutral-600.dark:focus:ring-neutral-500
+                    span.text-sm.text-neutral-600.dark:text-neutral-400.group-hover:text-neutral-900.dark:group-hover:text-white.transition-colors
+                  label.flex.items-center.gap-3.cursor-pointer.group — Heritage Living
+                    input.w-4.h-4.cursor-pointer.rounded.border-neutral-300.text-neutral-900.focus:ring-neutral-900.dark:border-neutral-600.dark:focus:ring-neutral-500
+                    span.text-sm.text-neutral-600.dark:text-neutral-400.group-hover:text-neutral-900.dark:group-hover:text-white.transition-colors
+                  label.flex.items-center.gap-3.cursor-pointer.group — Nike
+                    input.w-4.h-4.cursor-pointer.rounded.border-neutral-300.text-neutral-900.focus:ring-neutral-900.dark:border-neutral-600.dark:focus:ring-neutral-500
+                    span.text-sm.text-neutral-600.dark:text-neutral-400.group-hover:text-neutral-900.dark:group-hover:text-white.transition-colors
+                  label.flex.items-center.gap-3.cursor-pointer.group — Duke
+                    input.w-4.h-4.cursor-pointer.rounded.border-neutral-300.text-neutral-900.focus:ring-neutral-900.dark:border-neutral-600.dark:focus:ring-neutral-500
+                    span.text-sm.text-neutral-600.dark:text-neutral-400.group-hover:text-neutral-900.dark:group-hover:text-white.transition-colors
+                  label.flex.items-center.gap-3.cursor-pointer.group — Puma
+                    input.w-4.h-4.cursor-pointer.rounded.border-neutral-300.text-neutral-900.focus:ring-neutral-900.dark:border-neutral-600.dark:focus:ring-neutral-500
+                    span.text-sm.text-neutral-600.dark:text-neutral-400.group-hover:text-neutral-900.dark:group-hover:text-white.transition-colors
+                  label.flex.items-center.gap-3.cursor-pointer.group — JBL
+                    input.w-4.h-4.cursor-pointer.rounded.border-neutral-300.text-neutral-900.focus:ring-neutral-900.dark:border-neutral-600.dark:focus:ring-neutral-500
+                    span.text-sm.text-neutral-600.dark:text-neutral-400.group-hover:text-neutral-900.dark:group-hover:text-white.transition-colors
+                  label.flex.items-center.gap-3.cursor-pointer.group — Lunavo
+                    input.w-4.h-4.cursor-pointer.rounded.border-neutral-300.text-neutral-900.focus:ring-neutral-900.dark:border-neutral-600.dark:focus:ring-neutral-500
+                    span.text-sm.text-neutral-600.dark:text-neutral-400.group-hover:text-neutral-900.dark:group-hover:text-white.transition-colors
+                  label.flex.items-center.gap-3.cursor-pointer.group — Sofique
+                    input.w-4.h-4.cursor-pointer.rounded.border-neutral-300.text-neutral-900.focus:ring-neutral-900.dark:border-neutral-600.dark:focus:ring-neutral-500
+                    span.text-sm.text-neutral-600.dark:text-neutral-400.group-hover:text-neutral-900.dark:group-hover:text-white.transition-colors
+            div.border-b.border-neutral-100.dark:border-neutral-800.pb-6
+              label.flex.items-center.gap-3.cursor-pointer.group — In Stock Only
+                input.w-4.h-4.rounded.border-neutral-300.text-neutral-900.focus:ring-neutral-900.dark:border-neutral-600.dark:focus:ring-neutral-500
+                span.text-sm.text-neutral-600.dark:text-neutral-400.group-hover:text-neutral-900.dark:group-hover:text-white.transition-colors
+          div.px-6.py-4.border-t.border-neutral-200.dark:border-neutral-700.bg-neutral-50.dark:bg-neutral-800/50
+            div.flex.gap-3
+              button.flex-1.px-4.cursor-pointer.py-3.border.border-neutral-200.dark:border-neutral-700.rounded-xl.text-neutral-700.dark:text-neutral-300 [+4] — Cancel
+              button.flex-1.px-4.py-3.bg-neutral-900.dark:bg-white.text-white.dark:text-neutral-900.rounded-xl.font-medium.hover:bg-neutral-800 [+7] — Apply Filters
+      div.mx-auto.w-full.px-4.md:px-6.lg:px-8.py-10.md:py-12.bg-white.dark:bg-neutral-950.border-t [+2]
+        div.max-w-screen-2xl.mx-auto
+          div.mx-auto.my-16.mt-16.sm:mt-0.w-full.lg:my-12.md:my-20.md:max-w-4xl.px-4.py-8
+            div.grid.grid-cols-2.md:grid-cols-4.gap-4.md:gap-6.mb-10
+              div.flex.flex-col.items-center.justify-center.gap-2.5.text-center.py-4.px-3.rounded-2xl.bg-neutral-50 [+4]
+                div.w-10.h-10.flex.items-center.justify-center.rounded-full.text-white.dark:text-neutral-900
+                  svg.fill-white.stroke-neutral-900.dark:fill-neutral-900.dark:stroke-neutral-300
+                p.max-w-[180px].text-center.font-archivo.text-xs.font-medium.text-neutral-600.dark:text-neutral-400.leading-snug
+              div.flex.flex-col.items-center.justify-center.gap-2.5.text-center.py-4.px-3.rounded-2xl.bg-neutral-50 [+4]
+                div.w-10.h-10.flex.items-center.justify-center.rounded-full.text-white.dark:text-neutral-900
+                  svg.fill-white.stroke-neutral-900.dark:fill-neutral-900.dark:stroke-neutral-300
+                p.max-w-[180px].text-center.font-archivo.text-xs.font-medium.text-neutral-600.dark:text-neutral-400.leading-snug
+              div.flex.flex-col.items-center.justify-center.gap-2.5.text-center.py-4.px-3.rounded-2xl.bg-neutral-50 [+4]
+                div.w-10.h-10.flex.items-center.justify-center.rounded-full.text-white.dark:text-neutral-900
+                  svg.fill-white.stroke-neutral-900.dark:fill-neutral-900.dark:stroke-neutral-300
+                p.max-w-[180px].text-center.font-archivo.text-xs.font-medium.text-neutral-600.dark:text-neutral-400.leading-snug
+              div.flex.flex-col.items-center.justify-center.gap-2.5.text-center.py-4.px-3.rounded-2xl.bg-neutral-50 [+4]
+                div.w-10.h-10.flex.items-center.justify-center.rounded-full.text-white.dark:text-neutral-900
+                  svg.fill-white.stroke-neutral-900.dark:fill-neutral-900.dark:stroke-neutral-300
+                p.max-w-[180px].text-center.font-archivo.text-xs.font-medium.text-neutral-600.dark:text-neutral-400.leading-snug
+      footer.hidden.lg:block.bg-neutral-50.dark:bg-neutral-900/50.text-neutral-700.dark:text-neutral-300
+        div.mx-auto.w-full.max-w-screen-2xl.px-4.md:px-6.lg:px-8.py-12.md:py-14
+          div.grid.grid-cols-1.md:grid-cols-2.lg:grid-cols-12.gap-10
+            div.lg:col-span-3.flex.flex-col.gap-4
+              a.flex.items-center.gap-2.cursor-pointer.w-fit
+                div.flex.items-center.gap-x-2
+                  div.!min-h-8.!min-w-8.flex.items-center.justify-center.rounded-lg.bg-emerald-500
+                    svg
+                      rect.fill-white
+                      rect.fill-white
+                  p.text-sm.font-bold.text-neutral-900.dark:text-white
+                span.sr-only
+              p.text-sm.text-neutral-500.dark:text-neutral-400.leading-relaxed.max-w-[260px]
+              div.flex.gap-3.mt-1
+                a.cursor-pointer.w-9.h-9.flex.items-center.justify-center.rounded-full.bg-neutral-100.dark:bg-neutral-800.text-neutral-500 [+6]
+                  svg.fill-black/[62].dark:fill-white
+                a.cursor-pointer.w-9.h-9.flex.items-center.justify-center.rounded-full.bg-neutral-100.dark:bg-neutral-800.text-neutral-500 [+6]
+                  svg.w-5.h-5
+                a.cursor-pointer.w-9.h-9.flex.items-center.justify-center.rounded-full.bg-neutral-100.dark:bg-neutral-800.text-neutral-500 [+6]
+                  svg.fill-black/[62].dark:fill-white
+            div.lg:col-span-5
+              div.flex.justify-between.gap-x-8.lg:gap-x-[50px]
+                nav.w-full.lg:min-w-[160px].xl:min-w-[200px]
+                  ul
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                nav.w-full.lg:min-w-[160px].xl:min-w-[200px]
+                  ul
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+                    li.text-selected-black.dark:text-neutral-300
+                      a.block.px-0.py-1.md:p-2.text-nowrap.text-sm.underline-offset-4.text-selected-black.dark:text-neutral-300.hover:text-black [+3]
+            div.lg:col-span-4
+              form.mt-8.lg:mt-0.w-full.relative
+                div.mb-3
+                  h3.mb-1.text-sm.font-bold.text-neutral-900.dark:text-white — Stay Updated
+                  p.text-xs.text-neutral-500.dark:text-neutral-400
+                div.flex.flex-col.lg:flex-row.gap-2
+                  input.flex-1.rounded-xl.px-4.py-2.5.text-sm.focus:outline-none.focus:ring-2.focus:ring-neutral-300.dark:focus:ring-neutral-600.bg-white [+10]
+                  button.relative.flex.w-full.text-base.md:text-lg.cursor-pointer.font-archivo.font-semibold.items-center.justify-center [+34] — Subscribe
+                    div.mx-2.flex.items-center.justify-center.gap-2
+                      span
+        div.border-t.border-neutral-200.dark:border-neutral-800.py-4
+          div.mx-auto.w-full.max-w-screen-2xl.px-4.md:px-6.lg:px-8.flex.flex-col.md:flex-row.items-center [+5]
+            p
+            p
+span.dsv-2025.04.19-7e29
+next-route-announcer
+  template

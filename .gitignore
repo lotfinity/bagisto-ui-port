@@ -1,0 +1,7 @@
+node_modules/
+*.log
+console.json
+errors.json
+.DS_Store
+
+reference-nextjs-theme

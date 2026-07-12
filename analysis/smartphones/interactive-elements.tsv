@@ -1,0 +1,180 @@
+tag	role	type	id	href	classes	text
+a				https://bagisto-headless-electronic.vercel.app/	flex h-8 w-auto items-center md:h-9	Logoipsum
+a				https://bagisto-headless-electronic.vercel.app/	flex flex-col items-center gap-1 text-xs font-semibold py-2 rounded-lg transition-colors cursor-pointer	Home
+button		button			flex flex-col items-center gap-1 text-xs font-semibold py-2 rounded-lg transition-colors cursor-pointer	Categories
+button		button			flex flex-col items-center gap-1 text-xs font-semibold py-2 rounded-lg transition-colors cursor-pointer cursor-pointer	Cart
+button		button			flex flex-col items-center gap-1 text-xs font-semibold py-2 rounded-lg transition-colors cursor-pointer cursor-pointer bg-transparent  hover:bg-white/10 rounded-full transition-colors	Account
+a				https://bagisto-headless-electronic.vercel.app/search	font-medium text-neutral-300 hover:text-white px-3 lg:px-4 py-2 rounded-full transition-colors duration-200 hover:bg-white/10 inline-flex items-center gap-1	All
+a				https://bagisto-headless-electronic.vercel.app/smartphones	font-medium text-neutral-300 hover:text-white px-3 lg:px-4 py-2 rounded-full transition-colors duration-200 hover:bg-white/10 inline-flex items-center gap-1	Smartphones
+a				https://bagisto-headless-electronic.vercel.app/headphones	font-medium text-neutral-300 hover:text-white px-3 lg:px-4 py-2 rounded-full transition-colors duration-200 hover:bg-white/10 inline-flex items-center gap-1	Headphones
+a				https://bagisto-headless-electronic.vercel.app/entertainment	font-medium text-neutral-300 hover:text-white px-3 lg:px-4 py-2 rounded-full transition-colors duration-200 hover:bg-white/10 inline-flex items-center gap-1	Entertainment
+a				https://bagisto-headless-electronic.vercel.app/appliances	font-medium text-neutral-300 hover:text-white px-3 lg:px-4 py-2 rounded-full transition-colors duration-200 hover:bg-white/10 inline-flex items-center gap-1	Appliances
+button					p-2 text-white transition-colors cursor-pointer rounded-full hover:bg-white/10	
+div	dialog				fixed right-0 top-0 z-50 h-full w-full max-w-[420px] bg-white dark:bg-neutral-900 shadow-2xl transition-transform duration-300 ease-out translate-x-full	SearchStart typing to search products
+button					p-1 rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors cursor-pointer	
+input		text			w-full px-4 py-3 pr-12 text-sm bg-white dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 rounded-lg text-neutral-900 dark:text-white placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-neutral-900 dark:focus:ring-neutral-500 focus:border-transparent	
+button					absolute right-2 top-1/2 -translate-y-1/2 p-2 text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-300 transition-colors cursor-pointer	
+button		button			cursor-pointer bg-transparent  hover:bg-white/10 rounded-full transition-colors	
+button					relative p-2 text-white transition-colors cursor-pointer rounded-full hover:bg-white/10	
+div	dialog				fixed right-0 top-0 z-50 h-full w-full max-w-[420px] bg-white dark:bg-neutral-900 shadow-2xl transition-transform duration-300 ease-out flex flex-col translate-x-full	Shopping CartYour cart is emptyAdd items to your cart to see them here
+button					p-1 rounded-full cursor-pointer hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors	
+input	switch	checkbox			font-inherit text-[100%] leading-[1.15] m-0 p-0 overflow-visible box-border absolute top-0 w-full h-full opacity-[0.0001] z-[1] cursor-pointer disabled:cursor-default	
+svg	presentation				text-white hover:text-neutral-200 transition-colors	
+input		text			input w-full rounded-xl border border-neutral-700 bg-neutral-800 py-2 pl-4 pr-10 text-sm text-white outline-none placeholder:text-neutral-400 focus:ring-2 focus:ring-neutral-500 focus:border-neutral-500 md:pl-4 backdrop-blur-sm	
+div	button				absolute bottom-0 right-1 top-0 flex w-9 items-center justify-center cursor-pointer	
+a				https://bagisto-headless-electronic.vercel.app/	hover:text-neutral-900 dark:hover:text-white transition-colors	Home
+button					
+                flex items-center gap-2 px-4 py-2.5 rounded-full border transition-all  cursor-pointer duration-200
+                border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:border-neutral-300 dark:hover:border-neutral-600
+              	Filters
+button					
+          flex items-center gap-2 px-3 sm:px-4 py-2 sm:py-2.5 rounded-full border transition-all duration-200
+          cursor-pointer
+          border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:border-neutral-300 dark:hover:border-neutral-600
+        	From A-Z
+button					
+                  w-full flex items-center justify-between px-3 sm:px-4 py-2.5 sm:py-3 text-xs sm:text-sm transition-colors
+                  cursor-pointer
+                  bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-400 font-medium
+                	From A-Z
+button					
+                  w-full flex items-center justify-between px-3 sm:px-4 py-2.5 sm:py-3 text-xs sm:text-sm transition-colors
+                  cursor-pointer
+                  text-neutral-700 dark:text-neutral-300 hover:bg-neutral-50 dark:hover:bg-neutral-700
+                	From Z-A
+button					
+                  w-full flex items-center justify-between px-3 sm:px-4 py-2.5 sm:py-3 text-xs sm:text-sm transition-colors
+                  cursor-pointer
+                  text-neutral-700 dark:text-neutral-300 hover:bg-neutral-50 dark:hover:bg-neutral-700
+                	Newest First
+button					
+                  w-full flex items-center justify-between px-3 sm:px-4 py-2.5 sm:py-3 text-xs sm:text-sm transition-colors
+                  cursor-pointer
+                  text-neutral-700 dark:text-neutral-300 hover:bg-neutral-50 dark:hover:bg-neutral-700
+                	Oldest First
+button					
+                  w-full flex items-center justify-between px-3 sm:px-4 py-2.5 sm:py-3 text-xs sm:text-sm transition-colors
+                  cursor-pointer
+                  text-neutral-700 dark:text-neutral-300 hover:bg-neutral-50 dark:hover:bg-neutral-700
+                	Cheapest First
+button					
+                  w-full flex items-center justify-between px-3 sm:px-4 py-2.5 sm:py-3 text-xs sm:text-sm transition-colors
+                  cursor-pointer
+                  text-neutral-700 dark:text-neutral-300 hover:bg-neutral-50 dark:hover:bg-neutral-700
+                	Expensive First
+a				https://bagisto-headless-electronic.vercel.app/product/a-smartphone-and-earphone-bundle-offers-an-all-in-one-mobile-communication-and-audio-solution		
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+a		button		https://bagisto-headless-electronic.vercel.app/product/a-smartphone-and-earphone-bundle-offers-an-all-in-one-mobile-communication-and-audio-solution	flex items-center justify-center cursor-pointer transition-colors w-full h-full rounded-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/a-smartphone-and-earphone-bundle-offers-an-all-in-one-mobile-communication-and-audio-solution		A smartphone and earphone bundle offers an all-in-one mobile communication and audio solution.
+a		submit		https://bagisto-headless-electronic.vercel.app/product/a-smartphone-and-earphone-bundle-offers-an-all-in-one-mobile-communication-and-audio-solution	flex w-full cursor-pointer items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-xs font-semibold tracking-wide transition-all duration-200 bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100 hover:opacity-90	Add to Cart
+a				https://bagisto-headless-electronic.vercel.app/product/apple-iphone-smartphone		
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+div	button				flex items-center justify-center cursor-pointer transition-colors rounded-full w-full h-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/apple-iphone-smartphone		Apple iPhone Smartphone
+button		button			flex w-full cursor-pointer items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-xs font-semibold tracking-wide transition-all duration-200 bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100	Add to Cart
+a				https://bagisto-headless-electronic.vercel.app/product/blout-pixel-9a-5g		
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+div	button				flex items-center justify-center cursor-pointer transition-colors rounded-full w-full h-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/blout-pixel-9a-5g		blout Pixel 9a 5G
+button		button			flex w-full cursor-pointer items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-xs font-semibold tracking-wide transition-all duration-200 bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100	Add to Cart
+a				https://bagisto-headless-electronic.vercel.app/product/edge-60-fusion		
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+a		button		https://bagisto-headless-electronic.vercel.app/product/edge-60-fusion	flex items-center justify-center cursor-pointer transition-colors w-full h-full rounded-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/edge-60-fusion		Edge 60 Fusion
+a		submit		https://bagisto-headless-electronic.vercel.app/product/edge-60-fusion	flex w-full cursor-pointer items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-xs font-semibold tracking-wide transition-all duration-200 bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100 hover:opacity-90	Add to Cart
+a				https://bagisto-headless-electronic.vercel.app/product/galaxy-s25-ultra-5g		
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+div	button				flex items-center justify-center cursor-pointer transition-colors rounded-full w-full h-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/galaxy-s25-ultra-5g		Galaxy S25 Ultra 5G
+button		button			flex w-full cursor-pointer items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-xs font-semibold tracking-wide transition-all duration-200 bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100	Add to Cart
+a				https://bagisto-headless-electronic.vercel.app/product/one-og-plus-15-5g		
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+div	button				flex items-center justify-center cursor-pointer transition-colors rounded-full w-full h-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/one-og-plus-15-5g		One OG Plus 15 5G
+button		button			flex w-full cursor-pointer items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-xs font-semibold tracking-wide transition-all duration-200 bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100	Add to Cart
+a				https://bagisto-headless-electronic.vercel.app/product/premium-smartphone-xenon		
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+a		button		https://bagisto-headless-electronic.vercel.app/product/premium-smartphone-xenon	flex items-center justify-center cursor-pointer transition-colors w-full h-full rounded-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/premium-smartphone-xenon		Premium Smartphone Xenon
+a		submit		https://bagisto-headless-electronic.vercel.app/product/premium-smartphone-xenon	flex w-full cursor-pointer items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-xs font-semibold tracking-wide transition-all duration-200 bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100 hover:opacity-90	Add to Cart
+a				https://bagisto-headless-electronic.vercel.app/product/real-sam-12-pro-5g		
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+div	button				flex items-center justify-center cursor-pointer transition-colors rounded-full w-full h-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/real-sam-12-pro-5g		Real sam 12 Pro+ 5G
+button		button			flex w-full cursor-pointer items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-xs font-semibold tracking-wide transition-all duration-200 bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100	Add to Cart
+a				https://bagisto-headless-electronic.vercel.app/product/smarthome-iot-relay-module-gerber-schematic-files		
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+a		button		https://bagisto-headless-electronic.vercel.app/product/smarthome-iot-relay-module-gerber-schematic-files	flex items-center justify-center cursor-pointer transition-colors w-full h-full rounded-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/smarthome-iot-relay-module-gerber-schematic-files		SmartHome IoT Relay Module - Gerber & Schematic Files
+a		submit		https://bagisto-headless-electronic.vercel.app/product/smarthome-iot-relay-module-gerber-schematic-files	flex w-full cursor-pointer items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-xs font-semibold tracking-wide transition-all duration-200 bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100 hover:opacity-90	Add to Cart
+a				https://bagisto-headless-electronic.vercel.app/product/the-smartphone-power-bundle		
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+a		button		https://bagisto-headless-electronic.vercel.app/product/the-smartphone-power-bundle	flex items-center justify-center cursor-pointer transition-colors w-full h-full rounded-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/the-smartphone-power-bundle		The Smartphone Power Bundle
+a		submit		https://bagisto-headless-electronic.vercel.app/product/the-smartphone-power-bundle	flex w-full cursor-pointer items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-xs font-semibold tracking-wide transition-all duration-200 bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100 hover:opacity-90	Add to Cart
+a				https://bagisto-headless-electronic.vercel.app/product/the-ultimate-256gb-smartphone		
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+button					w-9 h-9 rounded-full shadow-md flex items-center justify-center transition-colors cursor-pointer bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700	
+div	button				flex items-center justify-center cursor-pointer transition-colors rounded-full w-full h-full bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 shadow-md	
+a				https://bagisto-headless-electronic.vercel.app/product/the-ultimate-256gb-smartphone		The Ultimate 256GB Smartphone
+button		button			flex w-full cursor-pointer items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-xs font-semibold tracking-wide transition-all duration-200 bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100	Add to Cart
+button					p-2 rounded-full cursor-pointer hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors	
+button					flex items-center justify-between w-full mb-3 cursor-pointer	COLOR
+button					w-8 h-8 rounded-full cursor-pointer border-2 transition-all hover:scale-110 border-neutral-200 dark:border-neutral-700	
+button					w-8 h-8 rounded-full cursor-pointer border-2 transition-all hover:scale-110 border-neutral-200 dark:border-neutral-700	
+button					w-8 h-8 rounded-full cursor-pointer border-2 transition-all hover:scale-110 border-neutral-200 dark:border-neutral-700	
+button					w-8 h-8 rounded-full cursor-pointer border-2 transition-all hover:scale-110 border-neutral-200 dark:border-neutral-700	
+button					w-8 h-8 rounded-full cursor-pointer border-2 transition-all hover:scale-110 border-neutral-200 dark:border-neutral-700	
+button					w-8 h-8 rounded-full cursor-pointer border-2 transition-all hover:scale-110 border-neutral-200 dark:border-neutral-700	
+button					w-8 h-8 rounded-full cursor-pointer border-2 transition-all hover:scale-110 border-neutral-200 dark:border-neutral-700	
+button					w-8 h-8 rounded-full cursor-pointer border-2 transition-all hover:scale-110 border-neutral-200 dark:border-neutral-700	
+button					w-8 h-8 rounded-full cursor-pointer border-2 transition-all hover:scale-110 border-neutral-200 dark:border-neutral-700	
+button					w-8 h-8 rounded-full cursor-pointer border-2 transition-all hover:scale-110 border-neutral-200 dark:border-neutral-700	
+button					flex items-center justify-between w-full mb-3 cursor-pointer	SIZE
+input		checkbox			w-4 h-4 cursor-pointer  rounded border-neutral-300 text-neutral-900 focus:ring-neutral-900 dark:border-neutral-600 dark:focus:ring-neutral-500	
+input		checkbox			w-4 h-4 cursor-pointer  rounded border-neutral-300 text-neutral-900 focus:ring-neutral-900 dark:border-neutral-600 dark:focus:ring-neutral-500	
+input		checkbox			w-4 h-4 cursor-pointer  rounded border-neutral-300 text-neutral-900 focus:ring-neutral-900 dark:border-neutral-600 dark:focus:ring-neutral-500	
+input		checkbox			w-4 h-4 cursor-pointer  rounded border-neutral-300 text-neutral-900 focus:ring-neutral-900 dark:border-neutral-600 dark:focus:ring-neutral-500	
+button					flex items-center justify-between w-full mb-3 cursor-pointer	BRAND
+input		text			w-full px-3 py-2 text-sm border border-neutral-200 dark:border-neutral-700 rounded-lg bg-white dark:bg-neutral-800 text-neutral-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-neutral-900 dark:focus:ring-neutral-500	
+input		checkbox			w-4 h-4 cursor-pointer  rounded border-neutral-300 text-neutral-900 focus:ring-neutral-900 dark:border-neutral-600 dark:focus:ring-neutral-500	
+input		checkbox			w-4 h-4 cursor-pointer  rounded border-neutral-300 text-neutral-900 focus:ring-neutral-900 dark:border-neutral-600 dark:focus:ring-neutral-500	
+input		checkbox			w-4 h-4 cursor-pointer  rounded border-neutral-300 text-neutral-900 focus:ring-neutral-900 dark:border-neutral-600 dark:focus:ring-neutral-500	
+input		checkbox			w-4 h-4 cursor-pointer  rounded border-neutral-300 text-neutral-900 focus:ring-neutral-900 dark:border-neutral-600 dark:focus:ring-neutral-500	
+input		checkbox			w-4 h-4 cursor-pointer  rounded border-neutral-300 text-neutral-900 focus:ring-neutral-900 dark:border-neutral-600 dark:focus:ring-neutral-500	
+input		checkbox			w-4 h-4 cursor-pointer  rounded border-neutral-300 text-neutral-900 focus:ring-neutral-900 dark:border-neutral-600 dark:focus:ring-neutral-500	
+input		checkbox			w-4 h-4 cursor-pointer  rounded border-neutral-300 text-neutral-900 focus:ring-neutral-900 dark:border-neutral-600 dark:focus:ring-neutral-500	
+input		checkbox			w-4 h-4 cursor-pointer  rounded border-neutral-300 text-neutral-900 focus:ring-neutral-900 dark:border-neutral-600 dark:focus:ring-neutral-500	
+input		checkbox			w-4 h-4 cursor-pointer  rounded border-neutral-300 text-neutral-900 focus:ring-neutral-900 dark:border-neutral-600 dark:focus:ring-neutral-500	
+input		checkbox			w-4 h-4 cursor-pointer  rounded border-neutral-300 text-neutral-900 focus:ring-neutral-900 dark:border-neutral-600 dark:focus:ring-neutral-500	
+input		checkbox			w-4 h-4 rounded border-neutral-300 text-neutral-900 focus:ring-neutral-900 dark:border-neutral-600 dark:focus:ring-neutral-500	
+button					flex-1 px-4 cursor-pointer py-3 border border-neutral-200 dark:border-neutral-700 rounded-xl text-neutral-700 dark:text-neutral-300 font-medium hover:bg-neutral-100 dark:hover:bg-neutral-700 transition-colors	Cancel
+button					flex-1 px-4 py-3 bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 rounded-xl font-medium hover:bg-neutral-800 dark:hover:bg-neutral-100 transition-colors inline-flex items-center justify-center gap-2 cursor-pointer	Apply Filters
+a				https://bagisto-headless-electronic.vercel.app/	flex items-center gap-2 cursor-pointer w-fit	LogoipsumGo to homepage
+a				https://www.instagram.com/bagisto_tips/	cursor-pointer w-9 h-9 flex items-center justify-center rounded-full bg-neutral-100 dark:bg-neutral-800 text-neutral-500 hover:text-white hover:bg-neutral-300 dark:hover:bg-neutral-700 dark:hover:text-neutral-900 transition-all duration-200	
+a				https://www.facebook.com/BagistoShop/	cursor-pointer w-9 h-9 flex items-center justify-center rounded-full bg-neutral-100 dark:bg-neutral-800 text-neutral-500 hover:text-white hover:bg-neutral-300 dark:hover:bg-neutral-700 dark:hover:text-neutral-900 transition-all duration-200	
+a				https://x.com/BagistoShop	cursor-pointer w-9 h-9 flex items-center justify-center rounded-full bg-neutral-100 dark:bg-neutral-800 text-neutral-500 hover:text-white hover:bg-neutral-300 dark:hover:bg-neutral-700 dark:hover:text-neutral-900 transition-all duration-200	
+a				https://bagisto-headless-electronic.vercel.app/privacy-policy	block px-0 py-1 md:p-2 text-nowrap text-sm underline-offset-4 text-selected-black dark:text-neutral-300 hover:text-black hover:underline md:inline-block dark:hover:text-neutral-300	Privacy policy
+a				https://bagisto-headless-electronic.vercel.app/whats-new	block px-0 py-1 md:p-2 text-nowrap text-sm underline-offset-4 text-selected-black dark:text-neutral-300 hover:text-black hover:underline md:inline-block dark:hover:text-neutral-300	What's New
+a				https://bagisto-headless-electronic.vercel.app/shipping-policy	block px-0 py-1 md:p-2 text-nowrap text-sm underline-offset-4 text-selected-black dark:text-neutral-300 hover:text-black hover:underline md:inline-block dark:hover:text-neutral-300	Shipping
+a				https://bagisto-headless-electronic.vercel.app/terms-of-use	block px-0 py-1 md:p-2 text-nowrap text-sm underline-offset-4 text-selected-black dark:text-neutral-300 hover:text-black hover:underline md:inline-block dark:hover:text-neutral-300	Terms of use
+a				https://bagisto-headless-electronic.vercel.app/refund-policy	block px-0 py-1 md:p-2 text-nowrap text-sm underline-offset-4 text-selected-black dark:text-neutral-300 hover:text-black hover:underline md:inline-block dark:hover:text-neutral-300	Refund Policy
+a				https://bagisto-headless-electronic.vercel.app/return-policy	block px-0 py-1 md:p-2 text-nowrap text-sm underline-offset-4 text-selected-black dark:text-neutral-300 hover:text-black hover:underline md:inline-block dark:hover:text-neutral-300	Return Policay
+a				https://bagisto-headless-electronic.vercel.app/payment-policy	block px-0 py-1 md:p-2 text-nowrap text-sm underline-offset-4 text-selected-black dark:text-neutral-300 hover:text-black hover:underline md:inline-block dark:hover:text-neutral-300	Payment Policy
+a				https://bagisto-headless-electronic.vercel.app/cutomer-service	block px-0 py-1 md:p-2 text-nowrap text-sm underline-offset-4 text-selected-black dark:text-neutral-300 hover:text-black hover:underline md:inline-block dark:hover:text-neutral-300	Customer Service
+a				https://bagisto-headless-electronic.vercel.app/terms-conditions	block px-0 py-1 md:p-2 text-nowrap text-sm underline-offset-4 text-selected-black dark:text-neutral-300 hover:text-black hover:underline md:inline-block dark:hover:text-neutral-300	terms & Conditions
+a				https://bagisto-headless-electronic.vercel.app/about-us	block px-0 py-1 md:p-2 text-nowrap text-sm underline-offset-4 text-selected-black dark:text-neutral-300 hover:text-black hover:underline md:inline-block dark:hover:text-neutral-300	About Us
+form					mt-8 lg:mt-0 w-full relative	Stay UpdatedGet exclusive offers, new arrivals, and more.Subscribe
+input		email			flex-1 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-neutral-300 dark:focus:ring-neutral-600 bg-white dark:bg-neutral-800 text-neutral-900 dark:text-white border transition-all duration-200 placeholder:text-neutral-400 dark:placeholder:text-neutral-500 border-neutral-200 dark:border-neutral-700	
+button		submit			relative flex w-full text-base md:text-lg cursor-pointer font-archivo font-semibold items-center justify-center rounded-xl bg-neutral-900 hover:bg-neutral-800 dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100 px-4 md:px-6 py-3 md:py-3 tracking-wide text-white transition-all duration-200 relative w-full lg:w-fit flex font-semibold px-6 py-2.5 items-center justify-center rounded-xl bg-neutral-900 dark:bg-white dark:text-neutral-900 hover:bg-neutral-800 dark:hover:bg-neutral-100 text-white text-sm transition-all duration-200 hover:opacity-90	Subscribe
+div	alert		__next-route-announcer__			
